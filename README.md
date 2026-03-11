@@ -62,6 +62,14 @@ Tests whether `alpha*` (optimized on 100 calibration participants) transfers to 
 
 Treats each participant's per-item confidence as an 80-dimensional profile. Maps model profiles at each alpha alongside human profiles in PCA space. Measures what fraction of individual participants are "covered" by some alpha in the sweep, and computes Wasserstein distances between model and human profile distributions. Tests whether the alpha sweep traces a meaningful path through human metacognitive variance.
 
+### E8 — Steered Model Performance (mirrors E1)
+
+Runs the same full evaluation as E1 but with optimal steering (`alpha*` from E2) active. Produces the same set of plots and metrics as E1 for direct comparison, plus E1-vs-E8 overlay charts.
+
+### E9 — Comprehensive E1 vs E8 Analysis
+
+Detailed statistical comparison of baseline (E1) vs steered (E8) performance. Analyzes pairwise confidence separation between response categories (Correct vs Lure, Correct vs Unsure, etc.), human alignment (ECE, correlation), accuracy preservation, and metacognitive sensitivity. Uses effect sizes, bootstrap CIs, and paired statistical tests.
+
 ## Technical Details
 
 | Component | Detail |
@@ -96,6 +104,8 @@ sae_steering_toolkit/
 │   ├── run_E5.py               #   Item-type asymmetry
 │   ├── run_E6.py               #   Generalization
 │   ├── run_E7.py               #   Individual differences
+│   ├── run_E8.py               #   Steered model (mirrors E1)
+│   ├── run_E9.py               #   Comprehensive E1 vs E8 analysis
 │   └── run_all.sh              #   Sequential runner
 ├── data/
 │   ├── 80 statements.csv       #   Item templates (80 trivia items)
