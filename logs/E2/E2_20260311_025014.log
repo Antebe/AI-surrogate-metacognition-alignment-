@@ -1,0 +1,11 @@
+2026-03-11 02:50:14,517 | INFO | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E2/E2_20260311_025014.log
+2026-03-11 02:50:14,518 | INFO | Loading model + SAEs...
+2026-03-11 02:51:25,987 | INFO | Model loaded.
+2026-03-11 02:51:26,046 | INFO | Human norms loaded: [80] items per EG
+2026-03-11 02:51:26,046 | INFO | Grid: 5 x 5 = 25 configs
+2026-03-11 02:51:26,048 | INFO | EG0: Loaded 22/25 cached configs
+2026-03-11 03:05:01,607 | INFO |   EG0 alpha=(120,40): L=0.2944 ECE=0.2099 r=0.6212
+2026-03-11 03:19:16,867 | INFO |   EG0 alpha=(120,60): L=0.3205 ECE=0.2093 r=0.5684
+2026-03-11 03:33:18,927 | INFO |   EG0 alpha=(120,120): L=0.5734 ECE=0.2166 r=0.0698
+2026-03-11 03:33:18,928 | INFO | EG0 sweep complete: 25 configs
+2026-03-11 03:33:18,928 | INFO | Finding optimal alpha...

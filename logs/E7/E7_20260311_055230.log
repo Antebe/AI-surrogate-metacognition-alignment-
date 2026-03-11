@@ -1,0 +1,17 @@
+2026-03-11 05:52:30,383 | INFO | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E7/E7_20260311_055230.log
+2026-03-11 05:52:30,431 | INFO | Human profiles: (166, 80) (participants x items)
+2026-03-11 05:52:30,603 | INFO | Metacognitive profiles: 163 participants
+2026-03-11 05:52:30,613 | INFO | 
+==================================================
+2026-03-11 05:52:30,613 | INFO | EG0
+2026-03-11 05:52:30,613 | INFO | ==================================================
+2026-03-11 05:52:30,617 | INFO |   Model profiles: (25, 80)
+2026-03-11 05:52:30,764 | INFO |   Coverage: 0.0% (threshold=0.354)
+2026-03-11 05:52:30,765 | INFO |   Wasserstein (best alpha): 0.3279
+2026-03-11 05:52:32,659 | INFO | 
+EG0:
+2026-03-11 05:52:32,659 | INFO |   Coverage: 0.0%
+2026-03-11 05:52:32,659 | INFO |   PARTIAL: Model variance spans only part of human individual-difference space.
+2026-03-11 05:52:32,659 | INFO | 
+All plots saved to /home/cs29824/andre/sae_steering_toolkit/results/E7/plots
+2026-03-11 05:52:32,659 | INFO | E7 complete.

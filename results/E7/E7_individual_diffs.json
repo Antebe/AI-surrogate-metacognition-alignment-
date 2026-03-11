@@ -1,0 +1,258 @@
+{
+  "EG0": {
+    "per_alpha": [
+      {
+        "key": "0,0",
+        "unsure_coeff": 0,
+        "refusal_coeff": 0,
+        "loss": 0.464910533712926,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.5506404193840735,
+        "l2_mean": 3.765482118172853,
+        "wasserstein_mean": 0.33226071823013553
+      },
+      {
+        "key": "0,20",
+        "unsure_coeff": 0,
+        "refusal_coeff": 20,
+        "loss": 0.4261967290783331,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.557738617548184,
+        "l2_mean": 3.75347932743961,
+        "wasserstein_mean": 0.3299494623966486
+      },
+      {
+        "key": "0,40",
+        "unsure_coeff": 0,
+        "refusal_coeff": 40,
+        "loss": 0.4125263425194895,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.507376146612766,
+        "l2_mean": 3.7473078933742263,
+        "wasserstein_mean": 0.32999260173423134
+      },
+      {
+        "key": "0,60",
+        "unsure_coeff": 0,
+        "refusal_coeff": 60,
+        "loss": 0.3906282608060204,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.6038396085471158,
+        "l2_mean": 3.742179245263526,
+        "wasserstein_mean": 0.3324707412878395
+      },
+      {
+        "key": "0,120",
+        "unsure_coeff": 0,
+        "refusal_coeff": 120,
+        "loss": 1.0999426519762843,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.9661557071922857,
+        "l2_mean": 3.7408544855107535,
+        "wasserstein_mean": 0.3408383941591533
+      },
+      {
+        "key": "20,0",
+        "unsure_coeff": 20,
+        "refusal_coeff": 0,
+        "loss": 0.4345016226371875,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.5610555251851999,
+        "l2_mean": 3.7596474647820415,
+        "wasserstein_mean": 0.3305290346802752
+      },
+      {
+        "key": "20,20",
+        "unsure_coeff": 20,
+        "refusal_coeff": 20,
+        "loss": 0.42344916663250826,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.5114055723086968,
+        "l2_mean": 3.7488805545412274,
+        "wasserstein_mean": 0.3310992579144817
+      },
+      {
+        "key": "20,40",
+        "unsure_coeff": 20,
+        "refusal_coeff": 40,
+        "loss": 0.4028544361819154,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.5300069694297946,
+        "l2_mean": 3.755867747043408,
+        "wasserstein_mean": 0.3344281526917333
+      },
+      {
+        "key": "20,60",
+        "unsure_coeff": 20,
+        "refusal_coeff": 60,
+        "loss": 0.38248006402323487,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.6414015558876607,
+        "l2_mean": 3.726770326935414,
+        "wasserstein_mean": 0.327883543001901
+      },
+      {
+        "key": "20,120",
+        "unsure_coeff": 20,
+        "refusal_coeff": 120,
+        "loss": 1.0808469859197258,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.98537432687661,
+        "l2_mean": 3.7498928650086722,
+        "wasserstein_mean": 0.3371845863776852
+      },
+      {
+        "key": "40,0",
+        "unsure_coeff": 40,
+        "refusal_coeff": 0,
+        "loss": 0.3433015615792981,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.5114858216931188,
+        "l2_mean": 3.757132645638455,
+        "wasserstein_mean": 0.3306615739828352
+      },
+      {
+        "key": "40,20",
+        "unsure_coeff": 40,
+        "refusal_coeff": 20,
+        "loss": 0.377629612069741,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.550435097803624,
+        "l2_mean": 3.7698300132182565,
+        "wasserstein_mean": 0.33190369170168393
+      },
+      {
+        "key": "40,40",
+        "unsure_coeff": 40,
+        "refusal_coeff": 40,
+        "loss": 0.2985028009586133,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.5327691476849454,
+        "l2_mean": 3.7362551536041955,
+        "wasserstein_mean": 0.3309852206890137
+      },
+      {
+        "key": "40,60",
+        "unsure_coeff": 40,
+        "refusal_coeff": 60,
+        "loss": 0.3948508667425833,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.677420975120971,
+        "l2_mean": 3.7365822868653518,
+        "wasserstein_mean": 0.3329428337654306
+      },
+      {
+        "key": "40,120",
+        "unsure_coeff": 40,
+        "refusal_coeff": 120,
+        "loss": 1.022400742765441,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.9794280415101289,
+        "l2_mean": 3.766294059974887,
+        "wasserstein_mean": 0.3353281041886101
+      },
+      {
+        "key": "60,0",
+        "unsure_coeff": 60,
+        "refusal_coeff": 0,
+        "loss": 0.2797625400088094,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.4761582838890401,
+        "l2_mean": 3.792102407178883,
+        "wasserstein_mean": 0.332495154835454
+      },
+      {
+        "key": "60,20",
+        "unsure_coeff": 60,
+        "refusal_coeff": 20,
+        "loss": 0.2504104923570187,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.5913262953397653,
+        "l2_mean": 3.7858823362920324,
+        "wasserstein_mean": 0.3296309192173727
+      },
+      {
+        "key": "60,40",
+        "unsure_coeff": 60,
+        "refusal_coeff": 40,
+        "loss": 0.32074438134613875,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.638607953957809,
+        "l2_mean": 3.7905278370171636,
+        "wasserstein_mean": 0.33137395463664415
+      },
+      {
+        "key": "60,60",
+        "unsure_coeff": 60,
+        "refusal_coeff": 60,
+        "loss": 0.5086038308344997,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.7706190790446241,
+        "l2_mean": 3.7431871378675914,
+        "wasserstein_mean": 0.33610285332667095
+      },
+      {
+        "key": "60,120",
+        "unsure_coeff": 60,
+        "refusal_coeff": 120,
+        "loss": 0.8629966174576877,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 2.0112190888871693,
+        "l2_mean": 3.748278760397784,
+        "wasserstein_mean": 0.3400601316402133
+      },
+      {
+        "key": "120,0",
+        "unsure_coeff": 120,
+        "refusal_coeff": 0,
+        "loss": 0.44271794799874775,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.9209167840873909,
+        "l2_mean": 3.7365552635081647,
+        "wasserstein_mean": 0.32803161888287996
+      },
+      {
+        "key": "120,20",
+        "unsure_coeff": 120,
+        "refusal_coeff": 20,
+        "loss": 0.514869718382272,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 1.9869257848290975,
+        "l2_mean": 3.7485612300274185,
+        "wasserstein_mean": 0.33972020038921563
+      },
+      {
+        "key": "120,40",
+        "unsure_coeff": 120,
+        "refusal_coeff": 40,
+        "loss": 0.6185666058357862,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 2.067271314371044,
+        "l2_mean": 3.760618935986328,
+        "wasserstein_mean": 0.3417671262248379
+      },
+      {
+        "key": "120,60",
+        "unsure_coeff": 120,
+        "refusal_coeff": 60,
+        "loss": 1.1082614638934385,
+        "nearest_participant": "6780f4e9199352d99e8fbdac",
+        "l2_to_nearest": 2.062783737380812,
+        "l2_mean": 3.755517334285561,
+        "wasserstein_mean": 0.34242775906029654
+      },
+      {
+        "key": "120,120",
+        "unsure_coeff": 120,
+        "refusal_coeff": 120,
+        "loss": 5.949192580521076,
+        "nearest_participant": "671322ae5b5def60f8528351",
+        "l2_to_nearest": 2.1465198308436544,
+        "l2_mean": 3.793461338370182,
+        "wasserstein_mean": 0.3503029586516754
+      }
+    ],
+    "coverage_pct": 0.0,
+    "coverage_threshold": 0.35404755377242514
+  }
+}

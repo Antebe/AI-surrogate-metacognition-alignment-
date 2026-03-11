@@ -1,0 +1,28 @@
+{
+  "optimal": {
+    "optimal_alpha": "60,20",
+    "unsure_coeff": 60,
+    "refusal_coeff": 20,
+    "combined_loss": 0.2504104923570187,
+    "EG0": {
+      "loss": 0.2820889281371234,
+      "ece": 0.2066166962190544,
+      "corr": 0.6424388399448077,
+      "adjusted_loss": 0.2504104923570187,
+      "mean_accuracy": 0.7890295358649789,
+      "acc_ratio": 0.8877005347593584
+    },
+    "EG1": {
+      "loss": null,
+      "ece": null,
+      "corr": null,
+      "adjusted_loss": null,
+      "mean_accuracy": null,
+      "acc_ratio": null
+    }
+  },
+  "grid_size": 25,
+  "n_configs_by_eg": {
+    "EG0": 25
+  }
+}

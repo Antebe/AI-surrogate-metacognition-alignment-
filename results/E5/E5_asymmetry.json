@@ -1,0 +1,28 @@
+{
+  "EG0_Inaccurate": {
+    "exposure_group": 0,
+    "validity": "Inaccurate",
+    "ece_baseline": 0.18325776703735838,
+    "ece_optimal": 0.19109392785661156,
+    "delta_ece": -0.007836160819253174,
+    "n_items": 40,
+    "mean_human_conf": 0.6286936026936027,
+    "mean_baseline_conf": 0.6854655375458403,
+    "mean_opt_conf": 0.7118750462217981,
+    "mean_baseline_acc": 1.0,
+    "mean_opt_acc": 0.95
+  },
+  "EG0_Accurate": {
+    "exposure_group": 0,
+    "validity": "Accurate",
+    "ece_baseline": 0.19855020217329497,
+    "ece_optimal": 0.1942337180044173,
+    "delta_ece": 0.004316484168877671,
+    "n_items": 39,
+    "mean_human_conf": 0.5428205128205128,
+    "mean_baseline_conf": 0.6725616534101243,
+    "mean_opt_conf": 0.6607710941206463,
+    "mean_baseline_acc": 0.46153846153846156,
+    "mean_opt_acc": 0.6239316239316239
+  }
+}

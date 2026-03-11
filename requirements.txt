@@ -1,0 +1,13 @@
+torch>=2.1.0
+transformer_lens
+sae_lens
+einops
+plotly
+tqdm
+huggingface_hub
+ipywidgets
+seaborn
+matplotlib
+anthropic
+scikit-learn
+scipy

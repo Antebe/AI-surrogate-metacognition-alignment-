@@ -1,0 +1,17 @@
+2026-03-11 05:51:01,486 | INFO | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E6/E6_20260311_055101.log
+2026-03-11 05:51:01,487 | INFO | Optimal alpha*: 60,20
+2026-03-11 05:51:01,511 | INFO | Calib: 100, Test: 66
+2026-03-11 05:51:01,522 | INFO | 
+==================================================
+2026-03-11 05:51:01,522 | INFO | EG0
+2026-03-11 05:51:01,522 | INFO | ==================================================
+2026-03-11 05:51:01,562 | INFO |                     Baseline    Optimal    ΔLOSS
+2026-03-11 05:51:01,562 | INFO |   CALIB split:      0.4277      0.2625     +0.1652  acc=0.7890
+2026-03-11 05:51:01,562 | INFO |   TEST  split:      0.4303      0.2655     +0.1648  acc=0.7890
+2026-03-11 05:51:01,562 | INFO |   Generalization ratio: 0.997
+2026-03-11 05:51:01,562 | INFO |   GENERALIZATION CONFIRMED (ratio=1.00)
+2026-03-11 05:51:01,563 | INFO | 
+Saved E6_generalization.json
+2026-03-11 05:51:01,563 | INFO | Generating plots...
+2026-03-11 05:51:02,511 | INFO | All plots saved to /home/cs29824/andre/sae_steering_toolkit/results/E6/plots
+2026-03-11 05:51:02,511 | INFO | E6 complete.

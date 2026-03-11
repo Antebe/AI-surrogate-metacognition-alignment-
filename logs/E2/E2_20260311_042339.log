@@ -1,0 +1,17 @@
+2026-03-11 04:23:39,936 | INFO | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E2/E2_20260311_042339.log
+2026-03-11 04:23:39,937 | INFO | Loading model + SAEs...
+2026-03-11 04:24:45,093 | INFO | Model loaded.
+2026-03-11 04:24:45,146 | INFO | Human norms loaded: [80] items per EG
+2026-03-11 04:24:45,147 | INFO | Grid: 5 x 5 = 25 configs
+2026-03-11 04:24:45,148 | INFO | EG0: Loaded 25/25 cached configs
+2026-03-11 04:24:45,150 | INFO | EG0 sweep complete: 25 configs
+2026-03-11 04:24:45,150 | INFO | Finding optimal alpha...
+2026-03-11 04:24:45,151 | INFO | Loaded sweep for EG0: 25 configs
+2026-03-11 04:24:45,151 | INFO | EG1 sweep file not found — skipping
+2026-03-11 04:24:45,152 | INFO | EG0: baseline acc=0.7004
+2026-03-11 04:24:45,152 | INFO | Optimal alpha*: unsure=60, refusal=20
+2026-03-11 04:24:45,152 | INFO |   Combined adjusted loss: 0.2504
+2026-03-11 04:24:45,152 | INFO |   EG0: L_raw=0.2821 L_adj=0.2504 ECE=0.2066 acc=0.7890 acc_ratio=0.8877
+2026-03-11 04:24:45,153 | INFO | Generating plots...
+2026-03-11 04:24:48,575 | INFO | All plots saved to /home/cs29824/andre/sae_steering_toolkit/results/E2/plots
+2026-03-11 04:24:48,576 | INFO | E2 complete.

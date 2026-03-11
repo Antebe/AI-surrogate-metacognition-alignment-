@@ -1,0 +1,23 @@
+{
+  "EG0": {
+    "calib": {
+      "loss_baseline": 0.42767868216239724,
+      "loss_optimal": 0.2624784678922968,
+      "ece_baseline": 0.20508546552416249,
+      "ece_optimal": 0.2066166962190544,
+      "acc_baseline": 0.7341772151898734,
+      "acc_optimal": 0.7890295358649789,
+      "delta_loss": 0.16520021427010045
+    },
+    "test": {
+      "loss_baseline": 0.43026756340699246,
+      "loss_optimal": 0.2654918977957287,
+      "ece_baseline": 0.21026322801335298,
+      "ece_optimal": 0.2130938386551666,
+      "acc_baseline": 0.7341772151898734,
+      "acc_optimal": 0.7890295358649789,
+      "delta_loss": 0.16477566561126378
+    },
+    "generalization_ratio": 0.9974300961974387
+  }
+}
