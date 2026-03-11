@@ -1,0 +1,43 @@
+2026-03-11 19:53:45,176 | INFO | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E9/E9_20260311_195345.log
+2026-03-11 19:53:45,204 | INFO | 
+============================================================
+2026-03-11 19:53:45,204 | INFO | Analyzing EG0
+2026-03-11 19:53:45,204 | INFO | ============================================================
+2026-03-11 19:53:45,298 | INFO | Summary comparison:
+2026-03-11 19:53:45,298 | INFO |   ECE                   baseline=0.2051  steered=0.2002  delta=-0.0049
+2026-03-11 19:53:45,298 | INFO |   Conf-Acc Corr         baseline=0.3497  steered=0.6684  delta=+0.3187
+2026-03-11 19:53:45,298 | INFO |   Loss                  baseline=0.4277  steered=0.2659  delta=-0.1618
+2026-03-11 19:53:45,298 | INFO |   r(model,human)        baseline=0.2864  steered=0.3538  delta=+0.0674
+2026-03-11 19:53:45,298 | INFO |   Mean Conf             baseline=0.6791  steered=0.6872  delta=+0.0081
+2026-03-11 19:53:45,298 | INFO |   Mean Acc              baseline=0.7342  steered=0.7827  delta=+0.0485
+2026-03-11 19:53:45,298 | INFO | 
+Pairwise confidence separation (Cohen's d):
+2026-03-11 19:53:45,308 | INFO |   Correct_vs_Lure            d_base=+0.376  d_steer=+1.354  delta=+0.978
+2026-03-11 19:53:45,313 | INFO |   Correct_vs_Unsure          d_base=+1.591  d_steer=+1.952  delta=+0.360
+2026-03-11 19:53:45,318 | INFO |   Correct_vs_Other           d_base=+0.174  d_steer=+1.792  delta=+1.618
+2026-03-11 19:53:45,323 | INFO |   Lure_vs_Unsure             d_base=+1.084  d_steer=+0.610  delta=-0.475
+2026-03-11 19:53:45,328 | INFO |   Lure_vs_Other              d_base=-0.182  d_steer=+0.442  delta=+0.624
+2026-03-11 19:53:45,332 | INFO |   Unsure_vs_Other            d_base=-1.281  d_steer=-0.133  delta=+1.148
+2026-03-11 19:53:45,510 | INFO | 
+Paired item analysis (n=79):
+2026-03-11 19:53:45,510 | INFO |   Confidence delta: +0.0081 [-0.0015, +0.0173]  p=0.0919
+2026-03-11 19:53:45,510 | INFO |   Accuracy delta:   +0.0485 [-0.0148, +0.1181]  p=0.1542
+2026-03-11 19:53:45,676 | INFO | 
+Human alignment (mean |model - human| residual):
+2026-03-11 19:53:45,676 | INFO |   Baseline: 0.2051  Steered: 0.2002
+2026-03-11 19:53:45,676 | INFO |   Delta: -0.0049 [-0.0470, +0.0365]  p=0.2980
+2026-03-11 19:53:45,679 | INFO | 
+Metacognitive sensitivity (conf-acc r):
+2026-03-11 19:53:45,679 | INFO |   Baseline: r=0.3497 (p=0.0016)
+2026-03-11 19:53:45,679 | INFO |   Steered:  r=0.6684 (p=0.0000)
+2026-03-11 19:53:45,679 | INFO |   Fisher z-test: z=2.729, p=0.0064
+2026-03-11 19:53:45,683 | INFO | 
+Category distributions:
+2026-03-11 19:53:45,683 | INFO |   Correct     baseline=0.734  steered=0.783  delta=+0.049
+2026-03-11 19:53:45,683 | INFO |   Lure        baseline=0.139  steered=0.103  delta=-0.036
+2026-03-11 19:53:45,683 | INFO |   Unsure      baseline=0.070  steered=0.049  delta=-0.021
+2026-03-11 19:53:45,683 | INFO |   Other       baseline=0.057  steered=0.065  delta=+0.008
+2026-03-11 19:53:48,938 | INFO | 
+Analysis saved to /home/cs29824/andre/sae_steering_toolkit/results/E9/E9_analysis.json
+2026-03-11 19:53:48,939 | INFO | All plots saved to /home/cs29824/andre/sae_steering_toolkit/results/E9/plots
+2026-03-11 19:53:48,939 | INFO | E9 complete.

@@ -1,0 +1,104 @@
+2026-03-11 18:35:34,098 | INFO | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E8/E8_20260311_183534.log
+2026-03-11 18:35:34,099 | INFO | Optimal alpha*: unsure=60, refusal=20
+2026-03-11 18:35:34,099 | INFO | Loading model + SAEs...
+2026-03-11 18:36:42,790 | INFO | Model loaded.
+2026-03-11 18:36:42,790 | INFO | Steering with 4 interventions
+2026-03-11 18:36:42,811 | INFO | Participants: 100 calib, 66 test
+2026-03-11 18:36:42,811 | INFO | 
+============================================================
+2026-03-11 18:36:42,811 | INFO | Running EG0 steered (unsure=60, refusal=20)...
+2026-03-11 18:36:42,812 | INFO | ============================================================
+2026-03-11 18:36:42,828 | INFO | Resuming: 2/79 items cached
+2026-03-11 18:36:54,707 | INFO |   Item3: conf=0.70 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:37:05,313 | INFO |   Item4: conf=0.65 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:37:12,868 | INFO |   Item5: conf=0.77 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:37:25,021 | INFO |   Item6: conf=0.79 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:37:32,430 | INFO |   Item7: conf=0.72 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:37:43,794 | INFO |   Item8: conf=0.66 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:37:55,321 | INFO |   Item9: conf=0.73 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:38:05,133 | INFO |   Item10: conf=0.71 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:38:16,875 | INFO |   Item11: conf=0.72 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:38:29,749 | INFO |   Item12: conf=0.76 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:38:39,522 | INFO |   Item13: conf=0.74 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:38:52,936 | INFO |   Item14: conf=0.68 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:39:04,312 | INFO |   Item15: conf=0.66 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:39:15,177 | INFO |   Item16: conf=0.75 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:39:27,152 | INFO |   Item17: conf=0.68 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:39:36,362 | INFO |   Item18: conf=0.76 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:39:49,474 | INFO |   Item19: conf=0.69 acc=0.67 cats=['Correct', 'Other', 'Correct', 'Correct', 'Unsure', 'Correct']
+2026-03-11 18:40:02,309 | INFO |   Item20: conf=0.71 acc=0.83 cats=['Unsure', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:40:13,835 | INFO |   Item21: conf=0.63 acc=0.67 cats=['Correct', 'Correct', 'Correct', 'Lure', 'Correct', 'Unsure']
+2026-03-11 18:40:24,795 | INFO |   Item22: conf=0.69 acc=0.67 cats=['Correct', 'Correct', 'Lure', 'Lure', 'Correct', 'Correct']
+2026-03-11 18:40:33,910 | INFO |   Item23: conf=0.62 acc=0.33 cats=['Lure', 'Correct', 'Correct', 'Lure', 'Lure', 'Lure']
+2026-03-11 18:40:43,551 | INFO |   Item24: conf=0.68 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:40:51,317 | INFO |   Item25: conf=0.72 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:41:02,719 | INFO |   Item26: conf=0.62 acc=0.67 cats=['Correct', 'Correct', 'Correct', 'Unsure', 'Lure', 'Correct']
+2026-03-11 18:41:11,155 | INFO |   Item27: conf=0.77 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:41:22,187 | INFO |   Item28: conf=0.72 acc=0.67 cats=['Correct', 'Correct', 'Correct', 'Lure', 'Correct', 'Lure']
+2026-03-11 18:41:33,144 | INFO |   Item29: conf=0.72 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:41:43,371 | INFO |   Item30: conf=0.69 acc=0.50 cats=['Lure', 'Correct', 'Correct', 'Correct', 'Lure', 'Lure']
+2026-03-11 18:41:54,274 | INFO |   Item31: conf=0.70 acc=0.83 cats=['Correct', 'Correct', 'Lure', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:42:04,987 | INFO |   Item32: conf=0.67 acc=0.67 cats=['Correct', 'Lure', 'Lure', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:42:13,487 | INFO |   Item33: conf=0.73 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:42:20,231 | INFO |   Item34: conf=0.68 acc=0.67 cats=['Correct', 'Lure', 'Correct', 'Correct', 'Correct', 'Lure']
+2026-03-11 18:42:31,038 | INFO |   Item35: conf=0.71 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:42:42,948 | INFO |   Item36: conf=0.65 acc=0.33 cats=['Correct', 'Lure', 'Correct', 'Lure', 'Other', 'Lure']
+2026-03-11 18:42:50,954 | INFO |   Item37: conf=0.75 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:42:59,849 | INFO |   Item38: conf=0.73 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:43:12,788 | INFO |   Item39: conf=0.73 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:43:25,299 | INFO |   Item40: conf=0.73 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:43:34,184 | INFO |   Item41: conf=0.71 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:43:49,069 | INFO |   Item42: conf=0.70 acc=0.67 cats=['Correct', 'Unsure', 'Correct', 'Correct', 'Unsure', 'Correct']
+2026-03-11 18:43:57,591 | INFO |   Item43: conf=0.81 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:44:11,091 | INFO |   Item44: conf=0.72 acc=0.83 cats=['Other', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:44:23,911 | INFO |   Item45: conf=0.73 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:44:32,701 | INFO |   Item46: conf=0.72 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:44:42,523 | INFO |   Item47: conf=0.66 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:44:55,065 | INFO |   Item48: conf=0.62 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:45:06,470 | INFO |   Item49: conf=0.68 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:45:16,931 | INFO |   Item50: conf=0.71 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:45:29,809 | INFO |   Item51: conf=0.66 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:45:40,062 | INFO |   Item52: conf=0.73 acc=0.83 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Other', 'Correct']
+2026-03-11 18:45:51,374 | INFO |   Item53: conf=0.73 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:46:05,317 | INFO |   Item54: conf=0.70 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:46:15,383 | INFO |   Item55: conf=0.74 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:46:27,862 | INFO |   Item56: conf=0.73 acc=0.83 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Other']
+2026-03-11 18:46:41,906 | INFO |   Item57: conf=0.68 acc=0.83 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Other']
+2026-03-11 18:46:52,787 | INFO |   Item58: conf=0.72 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:47:04,890 | INFO |   Item59: conf=0.78 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:47:16,299 | INFO |   Item60: conf=0.64 acc=0.83 cats=['Correct', 'Correct', 'Other', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:47:28,590 | INFO |   Item61: conf=0.68 acc=0.83 cats=['Correct', 'Correct', 'Lure', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:47:39,282 | INFO |   Item62: conf=0.59 acc=0.00 cats=['Lure', 'Lure', 'Lure', 'Other', 'Lure', 'Lure']
+2026-03-11 18:47:50,706 | INFO |   Item63: conf=0.74 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:48:01,410 | INFO |   Item64: conf=0.59 acc=0.00 cats=['Lure', 'Lure', 'Other', 'Unsure', 'Other', 'Lure']
+2026-03-11 18:48:11,417 | INFO |   Item65: conf=0.70 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:48:23,356 | INFO |   Item66: conf=0.72 acc=0.00 cats=['Lure', 'Lure', 'Lure', 'Lure', 'Lure', 'Lure']
+2026-03-11 18:48:38,352 | INFO |   Item67: conf=0.71 acc=0.00 cats=['Lure', 'Other', 'Other', 'Lure', 'Lure', 'Unsure']
+2026-03-11 18:48:50,172 | INFO |   Item69: conf=0.71 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:49:07,775 | INFO |   Item70: conf=0.62 acc=0.67 cats=['Correct', 'Correct', 'Other', 'Correct', 'Correct', 'Other']
+2026-03-11 18:49:17,284 | INFO |   Item71: conf=0.57 acc=0.83 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Other', 'Correct']
+2026-03-11 18:49:31,367 | INFO |   Item72: conf=0.52 acc=0.00 cats=['Lure', 'Other', 'Unsure', 'Unsure', 'Unsure', 'Lure']
+2026-03-11 18:49:43,050 | INFO |   Item73: conf=0.62 acc=0.67 cats=['Correct', 'Correct', 'Other', 'Correct', 'Unsure', 'Correct']
+2026-03-11 18:49:53,621 | INFO |   Item74: conf=0.62 acc=0.50 cats=['Correct', 'Lure', 'Lure', 'Correct', 'Lure', 'Correct']
+2026-03-11 18:50:14,315 | INFO |   Item75: conf=0.62 acc=0.00 cats=['Unsure', 'Other', 'Other', 'Unsure', 'Other', 'Other']
+2026-03-11 18:50:28,645 | INFO |   Item76: conf=0.61 acc=0.33 cats=['Correct', 'Unsure', 'Unsure', 'Correct', 'Unsure', 'Unsure']
+2026-03-11 18:50:42,014 | INFO |   Item77: conf=0.60 acc=0.17 cats=['Lure', 'Lure', 'Unsure', 'Lure', 'Correct', 'Unsure']
+2026-03-11 18:50:53,585 | INFO |   Item78: conf=0.57 acc=0.17 cats=['Other', 'Lure', 'Other', 'Correct', 'Other', 'Lure']
+2026-03-11 18:51:07,500 | INFO |   Item79: conf=0.53 acc=0.17 cats=['Unsure', 'Correct', 'Unsure', 'Unsure', 'Other', 'Other']
+2026-03-11 18:51:22,022 | INFO |   Item80: conf=0.56 acc=0.17 cats=['Other', 'Other', 'Other', 'Correct', 'Other', 'Other']
+2026-03-11 18:51:22,042 | INFO | Saved /home/cs29824/andre/sae_steering_toolkit/results/E8/E8_steered_EG0.json
+2026-03-11 18:51:22,072 | INFO | EG0 Results:
+2026-03-11 18:51:22,072 | INFO |   ECE:            0.2002
+2026-03-11 18:51:22,072 | INFO |   Conf-Acc corr:  0.6684
+2026-03-11 18:51:22,073 | INFO |   Loss:           0.2659
+2026-03-11 18:51:22,073 | INFO |   r(model,human): 0.3538  p=0.001379
+2026-03-11 18:51:22,073 | INFO |   Model conf:     0.687
+2026-03-11 18:51:22,073 | INFO |   Human conf:     0.598
+2026-03-11 18:51:22,074 | INFO |   Model acc:      0.783
+2026-03-11 18:51:22,074 | INFO | 
+Combined loss: 0.2659, Combined ECE: 0.2002
+2026-03-11 18:51:22,074 | INFO | Loaded E1 baseline for comparison plots
+2026-03-11 18:51:22,074 | INFO | Generating plots...
+2026-03-11 18:51:24,935 | INFO | E1 vs E8 comparison plots saved
+2026-03-11 18:51:24,935 | INFO | All plots saved to /home/cs29824/andre/sae_steering_toolkit/results/E8/plots
+2026-03-11 18:51:24,935 | INFO | E8 complete.

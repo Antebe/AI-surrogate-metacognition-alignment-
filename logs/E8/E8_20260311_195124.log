@@ -1,0 +1,27 @@
+2026-03-11 19:51:24,220 | INFO | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E8/E8_20260311_195124.log
+2026-03-11 19:51:24,220 | INFO | Optimal alpha*: unsure=60, refusal=20
+2026-03-11 19:51:24,221 | INFO | Loading model + SAEs...
+2026-03-11 19:52:49,632 | INFO | Model loaded.
+2026-03-11 19:52:49,632 | INFO | Steering with 4 interventions
+2026-03-11 19:52:49,662 | INFO | Participants: 100 calib, 66 test
+2026-03-11 19:52:49,662 | INFO | 
+============================================================
+2026-03-11 19:52:49,662 | INFO | Running EG0 steered (unsure=60, refusal=20)...
+2026-03-11 19:52:49,662 | INFO | ============================================================
+2026-03-11 19:52:49,691 | INFO | Resuming: 79/79 items cached
+2026-03-11 19:52:49,704 | INFO | Saved /home/cs29824/andre/sae_steering_toolkit/results/E8/E8_steered_EG0.json
+2026-03-11 19:52:49,731 | INFO | EG0 Results:
+2026-03-11 19:52:49,731 | INFO |   ECE:            0.2002
+2026-03-11 19:52:49,731 | INFO |   Conf-Acc corr:  0.6684
+2026-03-11 19:52:49,731 | INFO |   Loss:           0.2659
+2026-03-11 19:52:49,731 | INFO |   r(model,human): 0.3538  p=0.001379
+2026-03-11 19:52:49,731 | INFO |   Model conf:     0.687
+2026-03-11 19:52:49,732 | INFO |   Human conf:     0.598
+2026-03-11 19:52:49,732 | INFO |   Model acc:      0.783
+2026-03-11 19:52:49,732 | INFO | 
+Combined loss: 0.2659, Combined ECE: 0.2002
+2026-03-11 19:52:49,733 | INFO | Loaded E1 baseline for comparison plots
+2026-03-11 19:52:49,733 | INFO | Generating plots...
+2026-03-11 19:52:52,468 | INFO | E1 vs E8 comparison plots saved
+2026-03-11 19:52:52,468 | INFO | All plots saved to /home/cs29824/andre/sae_steering_toolkit/results/E8/plots
+2026-03-11 19:52:52,468 | INFO | E8 complete.

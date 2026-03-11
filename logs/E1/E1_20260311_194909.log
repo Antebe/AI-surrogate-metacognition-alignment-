@@ -1,0 +1,35 @@
+2026-03-11 19:49:09,572 | INFO | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E1/E1_20260311_194909.log
+2026-03-11 19:49:09,573 | INFO | Loading model + SAEs...
+2026-03-11 19:50:16,640 | INFO | Model loaded.
+2026-03-11 19:50:16,664 | INFO | Participants: 100 calib, 66 test
+2026-03-11 19:50:16,664 | INFO | 
+============================================================
+2026-03-11 19:50:16,664 | INFO | Running EG0 baseline (unsteered)...
+2026-03-11 19:50:16,664 | INFO | ============================================================
+2026-03-11 19:50:16,685 | INFO | Resuming: 79/79 items cached
+2026-03-11 19:50:16,698 | INFO | Saved /home/cs29824/andre/sae_steering_toolkit/results/E1/E1_baseline_EG0.json
+2026-03-11 19:50:16,723 | INFO | EG0 Results:
+2026-03-11 19:50:16,723 | INFO |   ECE:            0.2051
+2026-03-11 19:50:16,723 | INFO |   Conf-Acc corr:  0.3497
+2026-03-11 19:50:16,723 | INFO |   Loss:           0.4277
+2026-03-11 19:50:16,723 | INFO |   r(model,human): 0.2864  p=0.010502
+2026-03-11 19:50:16,724 | INFO |   Model conf:     0.679
+2026-03-11 19:50:16,724 | INFO |   Human conf:     0.598
+2026-03-11 19:50:16,724 | INFO | 
+============================================================
+2026-03-11 19:50:16,724 | INFO | Running EG1 baseline (unsteered)...
+2026-03-11 19:50:16,724 | INFO | ============================================================
+2026-03-11 19:50:16,740 | INFO | Resuming: 79/79 items cached
+2026-03-11 19:50:16,752 | INFO | Saved /home/cs29824/andre/sae_steering_toolkit/results/E1/E1_baseline_EG1.json
+2026-03-11 19:50:16,773 | INFO | EG1 Results:
+2026-03-11 19:50:16,774 | INFO |   ECE:            0.1860
+2026-03-11 19:50:16,774 | INFO |   Conf-Acc corr:  0.4373
+2026-03-11 19:50:16,774 | INFO |   Loss:           0.3744
+2026-03-11 19:50:16,774 | INFO |   r(model,human): 0.4246  p=0.000096
+2026-03-11 19:50:16,774 | INFO |   Model conf:     0.682
+2026-03-11 19:50:16,774 | INFO |   Human conf:     0.577
+2026-03-11 19:50:16,775 | INFO | 
+Combined loss: 0.4010, Combined ECE: 0.1956
+2026-03-11 19:50:16,775 | INFO | Generating plots...
+2026-03-11 19:50:20,693 | INFO | All plots saved to /home/cs29824/andre/sae_steering_toolkit/results/E1/plots
+2026-03-11 19:50:20,693 | INFO | E1 complete.

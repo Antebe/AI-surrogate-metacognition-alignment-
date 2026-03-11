@@ -1,0 +1,12 @@
+2026-03-11 18:33:12,658 | INFO | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E8/E8_20260311_183312.log
+2026-03-11 18:33:12,659 | INFO | Optimal alpha*: unsure=60, refusal=20
+2026-03-11 18:33:12,659 | INFO | Loading model + SAEs...
+2026-03-11 18:34:19,874 | INFO | Model loaded.
+2026-03-11 18:34:19,874 | INFO | Steering with 4 interventions
+2026-03-11 18:34:19,897 | INFO | Participants: 100 calib, 66 test
+2026-03-11 18:34:19,897 | INFO | 
+============================================================
+2026-03-11 18:34:19,897 | INFO | Running EG0 steered (unsure=60, refusal=20)...
+2026-03-11 18:34:19,897 | INFO | ============================================================
+2026-03-11 18:34:30,323 | INFO |   Item1: conf=0.75 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']
+2026-03-11 18:34:41,531 | INFO |   Item2: conf=0.68 acc=1.00 cats=['Correct', 'Correct', 'Correct', 'Correct', 'Correct', 'Correct']

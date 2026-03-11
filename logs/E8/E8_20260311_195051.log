@@ -1,0 +1,3 @@
+2026-03-11 19:50:51,990 | INFO | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E8/E8_20260311_195051.log
+2026-03-11 19:50:51,991 | INFO | Optimal alpha*: unsure=60, refusal=20
+2026-03-11 19:50:51,991 | INFO | Loading model + SAEs...
