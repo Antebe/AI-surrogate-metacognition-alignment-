@@ -282,8 +282,9 @@ def main():
                    color=EG_COLORS[eg], s=50, edgecolor="white")
         if len(d) > 2 and d["model_conf"].std() > 1e-8:
             m_fit, b_fit = np.polyfit(d["model_conf"], d["model_acc"], 1)
-            x_line = np.linspace(0, 1, 100)
-            ax.plot(x_line, m_fit * x_line + b_fit, "r-", alpha=0.7)
+            x_line = np.linspace(d["model_conf"].min(), d["model_conf"].max(), 100)
+            y_line = np.clip(m_fit * x_line + b_fit, 0, 1)
+            ax.plot(x_line, y_line, "r-", alpha=0.7)
         r_val = eg_summaries[f"EG{eg}"]["conf_acc_corr"]
         ax.set_xlabel("Model Confidence")
         ax.set_ylabel("Model Accuracy")

@@ -11,8 +11,9 @@ RESULTS_DIR  = PROJECT_ROOT / "results"
 LOGS_DIR     = PROJECT_ROOT / "logs"
 
 # ── API Keys ─────────────────────────────────────────────────────────────
-HF_TOKEN      = ""
-ANTHROPIC_KEY  = ""
+HF_TOKEN      = "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"
+ANTHROPIC_KEY  = "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"
+
 CLAUDE_MODEL   = "claude-haiku-4-5-20251001"
 
 # ── SAE Layers ───────────────────────────────────────────────────────────
@@ -47,7 +48,7 @@ SWEEP_REFUSAL_VALS = [0, 20, 40, 60, 120]
 
 # ── Exposure Groups ─────────────────────────────────────────────────────
 EXPOSURE_GROUPS = [0] #0, 1 is too much  # Counterbalanced: each EG has a mix of accurate & lure items
-EG_LABELS = {0: "EG0", 1: "EG1"}
+EG_LABELS = {0: "Exposure Group 0", 1: "Exposure Group 1"}
 EG_FILES  = {
     0: DATA_DIR / "80 statements_EG0.csv",
     1: DATA_DIR / "80 statements_EG1.csv",
