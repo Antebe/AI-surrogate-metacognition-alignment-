@@ -11,8 +11,8 @@ RESULTS_DIR  = PROJECT_ROOT / "results"
 LOGS_DIR     = PROJECT_ROOT / "logs"
 
 # ── API Keys ─────────────────────────────────────────────────────────────
-HF_TOKEN      = "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"
-ANTHROPIC_KEY  = "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"
+HF_TOKEN      = ""
+ANTHROPIC_KEY  = ""
 
 CLAUDE_MODEL   = "claude-haiku-4-5-20251001"
 
