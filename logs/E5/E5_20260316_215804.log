@@ -1,0 +1,19 @@
+2026-03-16 21:58:04,496 | INFO | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E5/E5_20260316_215804.log
+2026-03-16 21:58:04,500 | INFO | Optimal alpha*: 60,20
+2026-03-16 21:58:04,501 | INFO | Baseline accuracy by EG: {0: 0.7004219409282701}
+2026-03-16 21:58:04,552 | INFO | Validity counts:
+validity
+Inaccurate    40
+Accurate      40
+Name: count, dtype: int64
+2026-03-16 21:58:04,567 | INFO | EG0: 79 items with full data
+2026-03-16 21:58:04,570 | INFO |   EG0_Inaccurate: ECE_base=0.1833 ECE_opt=0.1911 ECE_human=0.0478 ΔECE=-0.0078 acc_base=1.0000 acc_opt=0.9500 acc_human=0.6165
+2026-03-16 21:58:04,571 | INFO |   EG0_Accurate: ECE_base=0.1986 ECE_opt=0.1942 ECE_human=0.0532 ΔECE=+0.0043 acc_base=0.4615 acc_opt=0.6239 acc_human=0.5377
+2026-03-16 21:58:04,572 | INFO | Saved E5_asymmetry.json
+2026-03-16 21:58:04,572 | INFO | Generating plots...
+2026-03-16 21:58:06,984 | INFO | 
+ΔECE(Inaccurate) = -0.0078
+2026-03-16 21:58:06,984 | INFO | ΔECE(Accurate)   = +0.0043
+2026-03-16 21:58:06,984 | INFO | NULL: Symmetric or reversed improvement pattern.
+2026-03-16 21:58:06,984 | INFO | All plots saved to /home/cs29824/andre/sae_steering_toolkit/results/E5/plots
+2026-03-16 21:58:06,985 | INFO | E5 complete.

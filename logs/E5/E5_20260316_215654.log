@@ -1,0 +1,9 @@
+2026-03-16 21:56:54,138 | INFO | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E5/E5_20260316_215654.log
+2026-03-16 21:56:54,142 | INFO | Optimal alpha*: 60,20
+2026-03-16 21:56:54,143 | INFO | Baseline accuracy by EG: {0: 0.7004219409282701}
+2026-03-16 21:56:54,192 | INFO | Validity counts:
+validity
+Inaccurate    40
+Accurate      40
+Name: count, dtype: int64
+2026-03-16 21:56:54,261 | INFO | EG0: 79 items with full data

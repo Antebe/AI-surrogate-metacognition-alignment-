@@ -100,6 +100,11 @@ def main():
     statements = load_statements()
     item_order = statements["item_id"].tolist()
 
+    # ── Human per-item ECE (self-calibration) ────────────────────────────
+    item_stats["human_ece"] = np.abs(
+        item_stats["human_conf_norm"] - item_stats["human_accuracy"]
+    )
+
     # ── Build analysis DataFrame per EG ──────────────────────────────────
     results_by_validity = {}
 
@@ -147,10 +152,14 @@ def main():
             ece_opt  = float(np.mean(np.abs(sub["opt_conf"] - sub["human_conf_norm"])))
             delta = ece_base - ece_opt  # positive = improvement
 
+            # Human self-calibration ECE: |conf - accuracy| per item
+            human_ece = float(sub["human_ece"].mean())
+
             # Accuracy metrics
             base_acc_vals = [baseline_accs.get(iid, np.nan) for iid in sub["item_id"]]
             mean_base_acc = float(np.nanmean(base_acc_vals))
             mean_opt_acc = float(sub["opt_acc"].mean())
+            mean_human_acc = float(sub["human_accuracy"].mean())
 
             key = f"EG{eg}_{validity}"
             results_by_validity[key] = {
@@ -158,6 +167,7 @@ def main():
                 "validity": validity,
                 "ece_baseline": ece_base,
                 "ece_optimal": ece_opt,
+                "ece_human": human_ece,
                 "delta_ece": delta,
                 "n_items": len(sub),
                 "mean_human_conf": float(sub["human_conf_norm"].mean()),
@@ -165,10 +175,12 @@ def main():
                 "mean_opt_conf": float(sub["opt_conf"].mean()),
                 "mean_baseline_acc": mean_base_acc,
                 "mean_opt_acc": mean_opt_acc,
+                "mean_human_acc": mean_human_acc,
             }
             log.info(
-                f"  {key}: ECE_base={ece_base:.4f} ECE_opt={ece_opt:.4f} "
-                f"ΔECE={delta:+.4f} acc_base={mean_base_acc:.4f} acc_opt={mean_opt_acc:.4f}"
+                f"  {key}: ECE_base={ece_base:.4f} ECE_opt={ece_opt:.4f} ECE_human={human_ece:.4f} "
+                f"ΔECE={delta:+.4f} acc_base={mean_base_acc:.4f} acc_opt={mean_opt_acc:.4f} "
+                f"acc_human={mean_human_acc:.4f}"
             )
 
     # Save results
@@ -199,33 +211,34 @@ def main():
     ax.legend(title="Exposure")
     save_plot(fig, plot_dir, "E5_delta_ece_by_validity_eg")
 
-    # ── 2. ECE Before/After by Validity ──────────────────────────────
+    # ── 2. ECE Before/After by Validity (incl. Human) ────────────────
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
     for ax, eg in zip(axes, EXPOSURE_GROUPS):
         sub = rdf[rdf["exposure_group"] == eg]
         if len(sub) == 0:
             continue
         x = np.arange(len(sub))
-        w = 0.35
-        ax.bar(x - w / 2, sub["ece_baseline"], w, label="Baseline", color=BASELINE_COLOR)
-        ax.bar(x + w / 2, sub["ece_optimal"], w, label="Optimal alpha*", color=OPTIMAL_COLOR)
+        w = 0.25
+        ax.bar(x - w, sub["ece_baseline"], w, label="Baseline", color=BASELINE_COLOR)
+        ax.bar(x, sub["ece_optimal"], w, label="Optimal α*", color=OPTIMAL_COLOR)
+        ax.bar(x + w, sub["ece_human"], w, label="Human", color=HUMAN_COLOR)
         ax.set_xticks(x)
         ax.set_xticklabels(sub["validity"])
         ax.set_ylabel("ECE")
         ax.set_title(f"{EG_LABELS[eg]}")
         ax.legend()
-    fig.suptitle("E5: ECE Before/After Steering by Validity", fontsize=14)
+    fig.suptitle("E5: ECE by Validity — Model vs Human", fontsize=14)
     plt.tight_layout()
     save_plot(fig, plot_dir, "E5_ece_before_after")
 
     # ── 3. Interaction Heatmap (Exposure x Validity) ─────────────────
-    fig, axes = plt.subplots(1, 3, figsize=(18, 5))
+    fig, axes = plt.subplots(1, 4, figsize=(22, 5))
 
     for ax, metric, title, cmap in zip(
         axes,
-        ["delta_ece", "ece_baseline", "ece_optimal"],
-        ["ΔECE (improvement)", "ECE Baseline", "ECE Optimal"],
-        ["RdYlGn", "YlOrRd", "YlOrRd"],
+        ["delta_ece", "ece_baseline", "ece_optimal", "ece_human"],
+        ["ΔECE (improvement)", "ECE Baseline", "ECE Optimal", "ECE Human"],
+        ["RdYlGn", "YlOrRd", "YlOrRd", "YlOrRd"],
     ):
         pivot = rdf.pivot(
             index="exposure_group", columns="validity", values=metric
@@ -287,7 +300,7 @@ def main():
     ax.legend(title="Source")
     save_plot(fig, plot_dir, "E5_mean_conf_comparison")
 
-    # ── 6. Accuracy Before/After by Validity ─────────────────────────
+    # ── 6. Accuracy by Validity (incl. Human) ────────────────────────
     if "mean_baseline_acc" in rdf.columns:
         fig, axes = plt.subplots(1, max(len(EXPOSURE_GROUPS), 2), figsize=(14, 5))
         if len(EXPOSURE_GROUPS) == 1:
@@ -297,15 +310,16 @@ def main():
             if len(sub) == 0:
                 continue
             x = np.arange(len(sub))
-            w = 0.35
-            ax.bar(x - w / 2, sub["mean_baseline_acc"], w, label="Baseline", color=BASELINE_COLOR)
-            ax.bar(x + w / 2, sub["mean_opt_acc"], w, label="Optimal alpha*", color=OPTIMAL_COLOR)
+            w = 0.25
+            ax.bar(x - w, sub["mean_baseline_acc"], w, label="Baseline", color=BASELINE_COLOR)
+            ax.bar(x, sub["mean_opt_acc"], w, label="Optimal α*", color=OPTIMAL_COLOR)
+            ax.bar(x + w, sub["mean_human_acc"], w, label="Human", color=HUMAN_COLOR)
             ax.set_xticks(x)
             ax.set_xticklabels(sub["validity"])
             ax.set_ylabel("Accuracy")
             ax.set_title(f"{EG_LABELS[eg]}")
             ax.legend()
-        fig.suptitle("E5: Accuracy Before/After Steering by Validity", fontsize=14)
+        fig.suptitle("E5: Accuracy by Validity — Model vs Human", fontsize=14)
         plt.tight_layout()
         save_plot(fig, plot_dir, "E5_accuracy_before_after")
 
