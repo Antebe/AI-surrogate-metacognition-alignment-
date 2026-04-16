@@ -10,10 +10,26 @@ DATA_DIR     = PROJECT_ROOT / "data"
 RESULTS_DIR  = PROJECT_ROOT / "results"
 LOGS_DIR     = PROJECT_ROOT / "logs"
 
-# ── API Keys ─────────────────────────────────────────────────────────────
+# ── API Keys (read from environment; never commit them) ──────────────
+import os
+from dotenv import load_dotenv
 
+# Load .env if present at project root
+_env_path = Path(__file__).resolve().parent.parent / ".env"
+if _env_path.exists():
+    load_dotenv(_env_path)
 
-CLAUDE_MODEL   = "claude-haiku-4-5-20251001"
+HF_TOKEN = (
+    os.environ.get("HF_TOKEN")
+    or os.environ.get("HUGGINGFACE_KEY")
+    or os.environ.get("HUGGINGFACE_WRITE_KEY")
+)
+ANTHROPIC_KEY = (
+    os.environ.get("ANTHROPIC_API_KEY")
+    or os.environ.get("ANTHROPIC_KEY")
+)
+
+CLAUDE_MODEL = "claude-haiku-4-5-20251001"
 
 # ── SAE Layers ───────────────────────────────────────────────────────────
 SAE_LAYERS = [9, 20, 31]
