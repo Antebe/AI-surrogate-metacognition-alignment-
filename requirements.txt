@@ -11,3 +11,5 @@ matplotlib
 anthropic
 scikit-learn
 scipy
+pytest
+python-dotenv
