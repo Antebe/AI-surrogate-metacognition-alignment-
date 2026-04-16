@@ -68,3 +68,38 @@ EG_FILES  = {
     0: DATA_DIR / "80 statements_EG0.csv",
     1: DATA_DIR / "80 statements_EG1.csv",
 }
+
+# ══════════════════════════════════════════════════════════════════════════
+# OPTION-B KNOBS
+# ══════════════════════════════════════════════════════════════════════════
+
+# ── Persona panel ────────────────────────────────────────────────────────
+N_PERSONAS_FULL   = 166
+N_PERSONAS_SWEEP  = 20
+PERSONA_STYLE     = "prose"     # "prose" | "structured"
+PERSONA_SEED      = 42
+
+# ── Resamples (independent panel draws) ──────────────────────────────────
+N_RESAMPLES_E1    = 3
+N_RESAMPLES_SWEEP = 1
+N_RESAMPLES_E8    = 5
+
+# ── n-shot conditions (prompt-engineering baselines) ─────────────────────
+N_SHOT_E1    = [0, 1, 5]
+N_SHOT_SWEEP = [0]
+N_SHOT_E8    = [0, 1, 5]
+
+# Exemplar pool for n-shot: fixed held-out item numbers (never scored).
+NSHOT_POOL_ITEM_NUMS = [71, 72, 73, 74, 75, 76, 77, 78, 79, 80]
+
+# ── Exposure groups ──────────────────────────────────────────────────────
+EXPOSURE_GROUPS_PRIMARY = [0]
+EXPOSURE_GROUPS_E5      = [0, 1]
+
+# ── Loss (Brier-based) ───────────────────────────────────────────────────
+LOSS_ALPHA      = 1.0    # |rho_model - rho_human|
+LOSS_BETA       = 10.0   # max(0, acc_human - acc_steered)
+HUMAN_CONF_MAP  = "empirical"   # "empirical" | "linear"
+
+# ── Items held out for n-shot exemplars are excluded from scoring ────────
+# Scored items = 80 − |NSHOT_POOL_ITEM_NUMS| = 70 by default.
