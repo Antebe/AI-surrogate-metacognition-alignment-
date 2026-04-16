@@ -28,6 +28,26 @@ from src import *
 
 import anthropic
 
+from persona import load_personas, build_persona_prefix
+from prompting import (
+    build_nshot_prompt,
+    select_exemplars,
+    scored_items_mask,
+)
+from brier import (
+    build_human_prob_map,
+    human_prob_for_response,
+    brier_score,
+    composite_loss,
+    limiting_behavior_report,
+)
+from distribution import (
+    category_distribution,
+    wasserstein_4cat,
+    js_divergence_4cat,
+    CATEGORIES,
+)
+
 
 # ═══════════════════════════════════════════════════════════════════════════
 # LOGGING
@@ -341,68 +361,83 @@ def make_control_interventions(saes: dict, name: str, coeff: float) -> list:
 def run_condition(
     model,
     items: pd.DataFrame,
+    personas: pd.DataFrame,
     interventions: list | None,
     client: anthropic.Anthropic,
-    n_samples: int = N_SAMPLES,
+    n_shot: int,
+    n_resamples: int,
     logger: Optional[logging.Logger] = None,
     checkpoint_path: Optional[Path] = None,
     existing_results: Optional[dict] = None,
 ) -> dict:
-    """Run all items under a single condition. Returns per-item results dict.
+    """Run every (persona, item) at a single (intervention, n_shot) configuration.
 
-    Supports resuming from existing_results and checkpointing.
+    Returns: {persona_id: {item_id: {...}}}. Resumable via checkpoint.
     """
-    results = dict(existing_results) if existing_results else {}
+    results: dict[str, dict[str, dict]] = (
+        dict(existing_results) if existing_results else {}
+    )
 
-    for _, row in tqdm(items.iterrows(), total=len(items), desc="Items"):
-        iid = row["item_id"]
-        if iid in results:
-            continue
+    scored = items[scored_items_mask(items, NSHOT_POOL_ITEM_NUMS)].reset_index(drop=True)
 
-        prompt = build_prompt(row["exposure_statement"], row["question"])
+    for _, prow in tqdm(personas.iterrows(), total=len(personas), desc="Personas"):
+        pid = str(prow["ID_1"])
+        prefix = build_persona_prefix(prow, style=PERSONA_STYLE)
+        results.setdefault(pid, {})
 
-        raw_outputs = generate(
-            model, prompt, interventions=interventions,
-            max_new_tokens=MAX_NEW_TOKENS, n=n_samples, temperature=TEMPERATURE,
+        # n-shot exemplars: seed by persona so the same persona sees
+        # the same exemplars across items (consistent within participant).
+        persona_seed = (PERSONA_SEED + hash(pid)) & 0xFFFFFFFF
+        exemplars = select_exemplars(
+            items, pool_item_nums=NSHOT_POOL_ITEM_NUMS,
+            k=n_shot, seed=persona_seed,
         )
-        # Strip prompt prefix — model.generate() returns prompt + completion
-        completions = [
-            out[len(prompt):].strip() if out.startswith(prompt) else out.strip()
-            for out in raw_outputs
-        ]
-        conf_data = [get_confidence(model, prompt, c, client) for c in completions]
-        conf_scores = [cd[0] for cd in conf_data]
-        conf_logit_details = [cd[1] for cd in conf_data]
-        coded = [
-            code_response(
-                row["exposure_statement"], row["question"],
-                row["correct_answer"], c, client,
-            )
-            for c in completions
-        ]
-        categories = [cat for cat, _ in coded]
-        acc_scores = [acc for _, acc in coded]
 
-        results[iid] = {
-            "prompt": prompt,
-            "completions": completions,
-            "confidence_logits": conf_logit_details,
-            "confidence_scores": conf_scores,
-            "response_categories": categories,
-            "accuracy_scores": acc_scores,
-            "mean_confidence": float(np.mean(conf_scores)),
-            "mean_accuracy": float(np.mean(acc_scores)),
-        }
+        for _, row in scored.iterrows():
+            iid = str(row["item_id"])
+            if iid in results[pid]:
+                continue
+
+            prompt = build_nshot_prompt(prefix, row, exemplars)
+            raw = generate(
+                model, prompt, interventions=interventions,
+                max_new_tokens=MAX_NEW_TOKENS, n=n_resamples,
+                temperature=TEMPERATURE,
+            )
+            completions = [
+                o[len(prompt):].strip() if o.startswith(prompt) else o.strip()
+                for o in raw
+            ]
+            conf_data = [get_confidence(model, prompt, c, client) for c in completions]
+            confs = [cd[0] for cd in conf_data]
+            probs = [cd[1]["probs"] for cd in conf_data]
+            coded = [
+                code_response(
+                    row["exposure_statement"], row["question"],
+                    row["correct_answer"], c, client,
+                )
+                for c in completions
+            ]
+            cats = [cat for cat, _ in coded]
+            accs = [acc for _, acc in coded]
+
+            results[pid][iid] = {
+                "prompt": prompt,
+                "completions": completions,
+                "confidence_probs": probs,
+                "confidence_scores": confs,
+                "response_categories": cats,
+                "accuracy_scores": accs,
+                "mean_confidence": float(np.mean(confs)),
+                "mean_accuracy": float(np.mean(accs)),
+            }
+
+            if checkpoint_path:
+                with open(checkpoint_path, "w") as f:
+                    json.dump(results, f, indent=2)
 
         if logger:
-            logger.info(
-                f"  {iid}: conf={np.mean(conf_scores):.2f} "
-                f"acc={np.mean(acc_scores):.2f} cats={categories}"
-            )
-
-        if checkpoint_path:
-            with open(checkpoint_path, "w") as f:
-                json.dump(results, f, indent=2)
+            logger.info(f"  persona={pid} items={len(results[pid])}")
 
     return results
 
@@ -410,6 +445,37 @@ def run_condition(
 # ═══════════════════════════════════════════════════════════════════════════
 # VISUALIZATION DEFAULTS
 # ═══════════════════════════════════════════════════════════════════════════
+
+def load_pilot_rate(default_s: float = 1.5) -> tuple[float, str]:
+    """Return (seconds_per_completion, source_label).
+
+    Reads results/E0/pilot_timing.json if present; otherwise uses default.
+    """
+    pilot_path = RESULTS_DIR / "E0" / "pilot_timing.json"
+    if pilot_path.exists():
+        try:
+            with open(pilot_path) as f:
+                rate = float(json.load(f)["observed_s_per_completion"])
+            return rate, "pilot"
+        except (KeyError, ValueError, json.JSONDecodeError):
+            pass
+    return default_s, f"default {default_s}s/completion (no pilot data)"
+
+
+def log_eta(logger: logging.Logger, total_completions: int, label: str) -> None:
+    """Log projected wall-clock for `total_completions` items."""
+    rate, source = load_pilot_rate()
+    secs = total_completions * rate
+    hrs  = secs / 3600
+    logger.info(
+        f"[ETA] {label}: {total_completions:,} completions x {rate:.2f}s "
+        f"({source}) = ~{hrs:.1f} hrs wall-clock"
+    )
+
+
+def count_scored_items(items: pd.DataFrame) -> int:
+    return int(scored_items_mask(items, NSHOT_POOL_ITEM_NUMS).sum())
+
 
 EG_COLORS      = {0: "#4C72B0", 1: "#DD8452"}
 BASELINE_COLOR = "#4C72B0"

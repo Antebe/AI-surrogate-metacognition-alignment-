@@ -1,0 +1,1454 @@
+{
+  "201 TER": {
+    "Item1": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nDried grapes are called raisins.\n\nNow complete this sentence with ONE word or short phrase:\nDried grapes are called  is/are",
+      "completions": [
+        "_______.\n\n\n\nraisins"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.10438244789838791,
+          "2": 0.03736583888530731,
+          "3": 0.11113297939300537,
+          "4": 0.7471187114715576
+        }
+      ],
+      "confidence_scores": [
+        0.833662636578083
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.833662636578083,
+      "mean_accuracy": 1.0
+    },
+    "Item2": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nHorse-like animals with black and white stripes are called zebras.\n\nNow complete this sentence with ONE word or short phrase:\nHorse-like animals with black and white stripes are called  is/are",
+      "completions": [
+        "__________.\n\n\nHorse-like animals with black and white stripes are called"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.08018592745065689,
+          "2": 0.032372716814279556,
+          "3": 0.09217222779989243,
+          "4": 0.7952690720558167
+        }
+      ],
+      "confidence_scores": [
+        0.86750811090072
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.86750811090072,
+      "mean_accuracy": 1.0
+    },
+    "Item3": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe long sleep some animals go through during the entire winter is called hibernation.\n\nNow complete this sentence with ONE word or short phrase:\nThe long sleep some animals go through during the entire winter is called  is/are",
+      "completions": [
+        "__________.\n\n\n**Answer:** hibernation"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.09859307110309601,
+          "2": 0.05426071584224701,
+          "3": 0.17829519510269165,
+          "4": 0.6688509583473206
+        }
+      ],
+      "confidence_scores": [
+        0.8058013071616491
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8058013071616491,
+      "mean_accuracy": 1.0
+    },
+    "Item4": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe rubber object that is hit back and forth by hockey players is a puck.\n\nNow complete this sentence with ONE word or short phrase:\nThe rubber object that is hit back and forth by hockey players is a  is/are",
+      "completions": [
+        "a ___.\n\n**Answer:** puck"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.14584344625473022,
+          "2": 0.07258489727973938,
+          "3": 0.3109816610813141,
+          "4": 0.4705899655818939
+        }
+      ],
+      "confidence_scores": [
+        0.7021060287952423
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.7021060287952423,
+      "mean_accuracy": 1.0
+    },
+    "Item5": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe remains of plants and animals that are found in stone are called fossils.\n\nNow complete this sentence with ONE word or short phrase:\nThe remains of plants and animals that are found in stone are called  is/are",
+      "completions": [
+        "______.\n\n**Answer:** fossils"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.09643909335136414,
+          "2": 0.04798474162817001,
+          "3": 0.18876095116138458,
+          "4": 0.6668152213096619
+        }
+      ],
+      "confidence_scores": [
+        0.8086507717768351
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8086507717768351,
+      "mean_accuracy": 1.0
+    },
+    "Item6": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe author who wrote \"Romeo & Juliet\" is William Shakespeare.\n\nNow complete this sentence with ONE word or short phrase:\nThe author who wrote \"Romeo & Juliet is  is/are",
+      "completions": [
+        "__________.\n\n\nThe author who wrote \"Romeo & Juliet is  is/"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.08111576735973358,
+          "2": 0.02892354689538479,
+          "3": 0.07872363924980164,
+          "4": 0.8112370371818542
+        }
+      ],
+      "confidence_scores": [
+        0.8733606425424417
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8733606425424417,
+      "mean_accuracy": 1.0
+    },
+    "Item7": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nPrecious red gems are rubies.\n\nNow complete this sentence with ONE word or short phrase:\nPrecious red gems are  is/are",
+      "completions": [
+        "rubies."
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.003414915641769767,
+          "2": 0.0036837728694081306,
+          "3": 0.2712441384792328,
+          "4": 0.7216571569442749
+        }
+      ],
+      "confidence_scores": [
+        0.9037145015317947
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.9037145015317947,
+      "mean_accuracy": 1.0
+    },
+    "Item8": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe severe headache that returns periodically and often is accompanied by nausea is called a migraine.\n\nNow complete this sentence with ONE word or short phrase:\nThe severe headache that returns periodically and often is accompanied by nausea is called a  is/are",
+      "completions": [
+        "called a ______.\n\n**Answer:** migraine"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.13232506811618805,
+          "2": 0.08466202765703201,
+          "3": 0.3996705412864685,
+          "4": 0.383342444896698
+        }
+      ],
+      "confidence_scores": [
+        0.6780101756254832
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.6780101756254832,
+      "mean_accuracy": 1.0
+    },
+    "Item9": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe comic strip character who eats spinach to increase his strength is named Popeye.\n\nNow complete this sentence with ONE word or short phrase:\nThe comic strip character who eats spinach to increase his strength is named  is/are",
+      "completions": [
+        "_____.\n\n\n**Answer:** Popeye"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.09473342448472977,
+          "2": 0.05458875000476837,
+          "3": 0.18300580978393555,
+          "4": 0.6676719784736633
+        }
+      ],
+      "confidence_scores": [
+        0.8078720892469088
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8078720892469088,
+      "mean_accuracy": 1.0
+    },
+    "Item10": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe animal that runs the fastest is the cheetah.\n\nNow complete this sentence with ONE word or short phrase:\nThe animal that runs the fastest is the  is/are",
+      "completions": [
+        "the cheetah."
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.003501124680042267,
+          "2": 0.0039213355630636215,
+          "3": 0.27859121561050415,
+          "4": 0.713986337184906
+        }
+      ],
+      "confidence_scores": [
+        0.901020930459102
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.901020930459102,
+      "mean_accuracy": 1.0
+    },
+    "Item11": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe process by which plants make their food is photosynthesis.\n\nNow complete this sentence with ONE word or short phrase:\nThe process by which plants make their food is  is/are",
+      "completions": [
+        "_______.\n\n**Photosynthesis**"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.1308540254831314,
+          "2": 0.050456032156944275,
+          "3": 0.17454484105110168,
+          "4": 0.6441450715065002
+        }
+      ],
+      "confidence_scores": [
+        0.777326966325442
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.777326966325442,
+      "mean_accuracy": 1.0
+    },
+    "Item12": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nDorothy's dog in \"The Wizard of Oz\" was named Toto.\n\nNow complete this sentence with ONE word or short phrase:\nDorothy's dog in \"The Wizard of Oz\" was named  is/are",
+      "completions": [
+        "____.\n\n**Answer:** Toto"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.08828261494636536,
+          "2": 0.043896544724702835,
+          "3": 0.19942092895507812,
+          "4": 0.6683999300003052
+        }
+      ],
+      "confidence_scores": [
+        0.8159794037540754
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8159794037540754,
+      "mean_accuracy": 1.0
+    },
+    "Item13": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe molten rock that runs down the side of a volcano during an eruption is called lava.\n\nNow complete this sentence with ONE word or short phrase:\nThe molten rock that runs down the side of a volcano during an eruption is called  is/are",
+      "completions": [
+        "_____.\n\nlava"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.09939158707857132,
+          "2": 0.04482203349471092,
+          "3": 0.1696881502866745,
+          "4": 0.6860982775688171
+        }
+      ],
+      "confidence_scores": [
+        0.8141644050677618
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8141644050677618,
+      "mean_accuracy": 1.0
+    },
+    "Item14": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe supposedly unsinkable ship that sunk on its maiden voyage in 1912 was the Titanic.\n\nNow complete this sentence with ONE word or short phrase:\nThe supposedly unsinkable ship that sunk on its maiden voyage in 1912 was the  is/are",
+      "completions": [
+        "_____.\n\nThe supposedly unsinkable ship that sunk on its maiden voyage"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.12049507349729538,
+          "2": 0.074025459587574,
+          "3": 0.2503112554550171,
+          "4": 0.5551682114601135
+        }
+      ],
+      "confidence_scores": [
+        0.7467175349593163
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.7467175349593163,
+      "mean_accuracy": 1.0
+    },
+    "Item15": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe sport that used the terms \"gutter\" and \"alley\" is bowling.\n\nNow complete this sentence with ONE word or short phrase:\nThe sport that used the terms \"gutter\" and \"alley\" is  is/are",
+      "completions": [
+        "_____.\n\nThe sport that used the terms \"gutter\" and \"al"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.11808592826128006,
+          "2": 0.07481343299150467,
+          "3": 0.22601762413978577,
+          "4": 0.5810829997062683
+        }
+      ],
+      "confidence_scores": [
+        0.7566992218295733
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.7566992218295733,
+      "mean_accuracy": 1.0
+    },
+    "Item16": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe giant ocean wave caused by an earthquake is a tsunami.\n\nNow complete this sentence with ONE word or short phrase:\nThe giant ocean wave caused by an earthquake is a  is/are",
+      "completions": [
+        "a  ___________."
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.07696182280778885,
+          "2": 0.052403584122657776,
+          "3": 0.4518369734287262,
+          "4": 0.41879767179489136
+        }
+      ],
+      "confidence_scores": [
+        0.7374901995062828
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.7374901995062828,
+      "mean_accuracy": 1.0
+    },
+    "Item17": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nHitting a volleyball down hard into the opponent's court is called a spike.\n\nNow complete this sentence with ONE word or short phrase:\nHitting a volleyball down hard into the opponent's court is called a  is/are",
+      "completions": [
+        "__________.\n\n\n\n**Answer:** spike"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.1599680334329605,
+          "2": 0.04750242084264755,
+          "3": 0.10753335058689117,
+          "4": 0.6849961280822754
+        }
+      ],
+      "confidence_scores": [
+        0.7725191464026769
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.7725191464026769,
+      "mean_accuracy": 1.0
+    },
+    "Item18": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe villainous captain in the story \"Peter Pan\" is named Hook.\n\nNow complete this sentence with ONE word or short phrase:\nThe villainous captain in the story \"Peter Pan\" is named  is/are",
+      "completions": [
+        "_____.\n\n\n**Answer:** Hook"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.07901304215192795,
+          "2": 0.04078950360417366,
+          "3": 0.18008023500442505,
+          "4": 0.7001172304153442
+        }
+      ],
+      "confidence_scores": [
+        0.8337672253449758
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8337672253449758,
+      "mean_accuracy": 1.0
+    },
+    "Item19": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nTarzan's girlfriend was named Jane.\n\nNow complete this sentence with ONE word or short phrase:\nTarzan's girlfriend was named  is/are",
+      "completions": [
+        "_____.\n\n**Answer:** Jane"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.09221453964710236,
+          "2": 0.04337013140320778,
+          "3": 0.13433371484279633,
+          "4": 0.7300815582275391
+        }
+      ],
+      "confidence_scores": [
+        0.8340940599640211
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8340940599640211,
+      "mean_accuracy": 1.0
+    },
+    "Item20": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe brothers who flew the first airplane at Kitty Hawk were the Wrights.\n\nNow complete this sentence with ONE word or short phrase:\nThe brothers who flew the first airplane at Kitty Hawk were the  is/are",
+      "completions": [
+        "_____. \n\n\nThe brothers who flew the first airplane at Kitty Hawk were"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.10072530806064606,
+          "2": 0.0659739151597023,
+          "3": 0.2153046578168869,
+          "4": 0.617996096611023
+        }
+      ],
+      "confidence_scores": [
+        0.7835238327582678
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.7835238327582678,
+      "mean_accuracy": 1.0
+    },
+    "Item21": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nMedical doctors who specialize in cutting the body are anesthesiologists.\n\nNow complete this sentence with ONE word or short phrase:\nMedical doctors who specialize in cutting the body are  is/are",
+      "completions": [
+        "_____.\n\n**anesthesiologists**"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.1291273981332779,
+          "2": 0.07043416053056717,
+          "3": 0.1878613382577896,
+          "4": 0.6125770211219788
+        }
+      ],
+      "confidence_scores": [
+        0.761295939485232
+      ],
+      "response_categories": [
+        "Lure"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.761295939485232,
+      "mean_accuracy": 0.0
+    },
+    "Item22": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe first person to set foot on the moon was John Glenn.\n\nNow complete this sentence with ONE word or short phrase:\nThe first person to set foot on the moon was  is/are",
+      "completions": [
+        "_______.\n\n\n**Neil Armstrong**"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.1603194773197174,
+          "2": 0.08223673701286316,
+          "3": 0.13831384479999542,
+          "4": 0.6191299557685852
+        }
+      ],
+      "confidence_scores": [
+        0.7387514362732569
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.7387514362732569,
+      "mean_accuracy": 1.0
+    },
+    "Item23": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe capital of France is Marseille.\n\nNow complete this sentence with ONE word or short phrase:\nThe capital of France is  is/are",
+      "completions": [
+        "_____.\n\n\n\nThe capital of France is  is/are **incorrect**."
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.1106242835521698,
+          "2": 0.05995284765958786,
+          "3": 0.09543633460998535,
+          "4": 0.7339866161346436
+        }
+      ],
+      "confidence_scores": [
+        0.8175951490799586
+      ],
+      "response_categories": [
+        "Unsure"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.8175951490799586,
+      "mean_accuracy": 0.0
+    },
+    "Item24": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe crime in which a building or property is purposely set on fire is called larceny.\n\nNow complete this sentence with ONE word or short phrase:\nThe crime in which a building or property is purposely set on fire is called  is/are",
+      "completions": [
+        "_____ .\n\n\n**Please do not add any additional context or explanation.**"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.20471879839897156,
+          "2": 0.09956931322813034,
+          "3": 0.16295258700847626,
+          "4": 0.5327592492103577
+        }
+      ],
+      "confidence_scores": [
+        0.6745840609073639
+      ],
+      "response_categories": [
+        "Lure"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.6745840609073639,
+      "mean_accuracy": 0.0
+    },
+    "Item25": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe short pleated skirt worn by men in Scotland is a skort.\n\nNow complete this sentence with ONE word or short phrase:\nThe short pleated skirt worn by men in Scotland is a  is/are",
+      "completions": [
+        "_____.\n\n\nThe short pleated skirt worn by men in Scotland is a"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.10795360803604126,
+          "2": 0.06306903064250946,
+          "3": 0.13447760045528412,
+          "4": 0.6944997906684875
+        }
+      ],
+      "confidence_scores": [
+        0.8051745444536209
+      ],
+      "response_categories": [
+        "Lure"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.8051745444536209,
+      "mean_accuracy": 0.0
+    },
+    "Item26": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nAn inability to sleep is called narcolepsy.\n\nNow complete this sentence with ONE word or short phrase:\nAn inability to sleep is called  is/are",
+      "completions": [
+        "__________."
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.08613917231559753,
+          "2": 0.03607001155614853,
+          "3": 0.0978492945432663,
+          "4": 0.7799414992332458
+        }
+      ],
+      "confidence_scores": [
+        0.8571976919968923
+      ],
+      "response_categories": [
+        "Lure"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.8571976919968923,
+      "mean_accuracy": 0.0
+    },
+    "Item27": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nMedical doctors who specialize in diseases of the skin are pathologists.\n\nNow complete this sentence with ONE word or short phrase:\nMedical doctors who specialize in diseases of the skin are  is/are",
+      "completions": [
+        "__________.\n\nPathologists."
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.11967723816633224,
+          "2": 0.05988997220993042,
+          "3": 0.12259430438280106,
+          "4": 0.697838544845581
+        }
+      ],
+      "confidence_scores": [
+        0.7995314250389735
+      ],
+      "response_categories": [
+        "Lure"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.7995314250389735,
+      "mean_accuracy": 0.0
+    },
+    "Item28": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe largest ocean on Earth is the Atlantic.\n\nNow complete this sentence with ONE word or short phrase:\nThe largest ocean on Earth is the  is/are",
+      "completions": [
+        "the ___. \n\n**The largest ocean on Earth is the Atlantic.**"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.15540245175361633,
+          "2": 0.10091055929660797,
+          "3": 0.23287594318389893,
+          "4": 0.5108110308647156
+        }
+      ],
+      "confidence_scores": [
+        0.6996985077857971
+      ],
+      "response_categories": [
+        "Lure"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.6996985077857971,
+      "mean_accuracy": 0.0
+    },
+    "Item29": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe ship that carried the pilgrims to America in 1620 was the Godspeed.\n\nNow complete this sentence with ONE word or short phrase:\nThe ship that carried the pilgrims to America in 1620 was the  is/are",
+      "completions": [
+        "_______.\n\nThe ship that carried the pilgrims to America in 1"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.13031312823295593,
+          "2": 0.07353492826223373,
+          "3": 0.1558234542608261,
+          "4": 0.6403284668922424
+        }
+      ],
+      "confidence_scores": [
+        0.7687224050362905
+      ],
+      "response_categories": [
+        "Lure"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.7687224050362905,
+      "mean_accuracy": 0.0
+    },
+    "Item30": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nWimbledon is associated with cricket.\n\nNow complete this sentence with ONE word or short phrase:\nWimbledon is associated with  is/are",
+      "completions": [
+        "______. \n\ntennis"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.12847355008125305,
+          "2": 0.07751666754484177,
+          "3": 0.17591024935245514,
+          "4": 0.6180996298789978
+        }
+      ],
+      "confidence_scores": [
+        0.7612120509147644
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.7612120509147644,
+      "mean_accuracy": 1.0
+    },
+    "Item31": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe largest bird on Earth that cannot fly is the penguin.\n\nNow complete this sentence with ONE word or short phrase:\nThe largest bird on Earth that cannot fly is the  is/are",
+      "completions": [
+        "_____________________.\n\nThe largest bird on Earth that cannot fly is the"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.10216381400823593,
+          "2": 0.06385728716850281,
+          "3": 0.20653250813484192,
+          "4": 0.6274463534355164
+        }
+      ],
+      "confidence_scores": [
+        0.7864204421639442
+      ],
+      "response_categories": [
+        "Lure"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.7864204421639442,
+      "mean_accuracy": 0.0
+    },
+    "Item32": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe lizard that changes its color to match the surroundings is the iguana.\n\nNow complete this sentence with ONE word or short phrase:\nThe lizard that changes its color to match the surroundings is the  is/are",
+      "completions": [
+        "the __________.\n\nThe lizard that changes its color to match the surroundings is"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.13842391967773438,
+          "2": 0.12076818197965622,
+          "3": 0.31545647978782654,
+          "4": 0.4253513813018799
+        }
+      ],
+      "confidence_scores": [
+        0.675911749402682
+      ],
+      "response_categories": [
+        "Lure"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.675911749402682,
+      "mean_accuracy": 0.0
+    },
+    "Item33": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe thick layer of fat on a whale is called flubber.\n\nNow complete this sentence with ONE word or short phrase:\nThe thick layer of fat on a whale is called  is/are",
+      "completions": [
+        "__________.\n\nThe thick layer of fat on a whale is called"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.12403959780931473,
+          "2": 0.0436897836625576,
+          "3": 0.07881339639425278,
+          "4": 0.753457248210907
+        }
+      ],
+      "confidence_scores": [
+        0.8205627823869387
+      ],
+      "response_categories": [
+        "Lure"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.8205627823869387,
+      "mean_accuracy": 0.0
+    },
+    "Item34": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nYoung sheep are called calfs.\n\nNow complete this sentence with ONE word or short phrase:\nYoung sheep are called  is/are",
+      "completions": [
+        "__________.\n\n\nYoung sheep are called calfs."
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.17284372448921204,
+          "2": 0.06881670653820038,
+          "3": 0.10586240142583847,
+          "4": 0.6524771451950073
+        }
+      ],
+      "confidence_scores": [
+        0.7459909742077192
+      ],
+      "response_categories": [
+        "Lure"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.7459909742077192,
+      "mean_accuracy": 0.0
+    },
+    "Item35": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe largest planet in the solar system is Saturn.\n\nNow complete this sentence with ONE word or short phrase:\nThe largest planet in the solar system is  is/are",
+      "completions": [
+        "_____.\n\n\n**Answer:**  Jupiter"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.09275326877832413,
+          "2": 0.05886688083410263,
+          "3": 0.11998540908098221,
+          "4": 0.7283943891525269
+        }
+      ],
+      "confidence_scores": [
+        0.8280069380998611
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8280069380998611,
+      "mean_accuracy": 1.0
+    },
+    "Item36": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe sport in which a rider on horseback hits a ball with his mallet is called croquet.\n\nNow complete this sentence with ONE word or short phrase:\nThe sport in which a rider on horseback hits a ball with his mallet is called  is/are",
+      "completions": [
+        "______.\n\nCroquet"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.1137842908501625,
+          "2": 0.055578187108039856,
+          "3": 0.15017950534820557,
+          "4": 0.6804580092430115
+        }
+      ],
+      "confidence_scores": [
+        0.7991037393609682
+      ],
+      "response_categories": [
+        "Lure"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.7991037393609682,
+      "mean_accuracy": 0.0
+    },
+    "Item37": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe legendary one-eyed giant in Greek mythology is the troll.\n\nNow complete this sentence with ONE word or short phrase:\nThe legendary one-eyed giant in Greek mythology is the  is/are",
+      "completions": [
+        "the **Cyclops**."
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.0031902696937322617,
+          "2": 0.003671785118058324,
+          "3": 0.7304049134254456,
+          "4": 0.26273295283317566
+        }
+      ],
+      "confidence_scores": [
+        0.7508934638462961
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.7508934638462961,
+      "mean_accuracy": 1.0
+    },
+    "Item38": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe spear-like object that is thrown during a track meet is a pole vault.\n\nNow complete this sentence with ONE word or short phrase:\nThe spear-like object that is thrown during a track meet is a  is/are",
+      "completions": [
+        "a ______.\n\n\n**Answer:**  javelin"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.17337796092033386,
+          "2": 0.12028132379055023,
+          "3": 0.33117058873176575,
+          "4": 0.3751702308654785
+        }
+      ],
+      "confidence_scores": [
+        0.6360444327195486
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.6360444327195486,
+      "mean_accuracy": 1.0
+    },
+    "Item39": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe man who rode horseback in 1775 to warn that the British were coming was John Hancock.\n\nNow complete this sentence with ONE word or short phrase:\nThe man who rode horseback in 1775 to warn that the British were coming was  is/are",
+      "completions": [
+        "_______.\n\n\n**Answer:**\n\nWrong"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.13514885306358337,
+          "2": 0.090423583984375,
+          "3": 0.16055384278297424,
+          "4": 0.6138737201690674
+        }
+      ],
+      "confidence_scores": [
+        0.7510508100191752
+      ],
+      "response_categories": [
+        "Lure"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.7510508100191752,
+      "mean_accuracy": 0.0
+    },
+    "Item40": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe Egyptian queen who joined forces with Mark Anthony of Rome was Nefertiti.\n\nNow complete this sentence with ONE word or short phrase:\nThe Egyptian queen who joined forces with Mark Anthony of Rome was  is/are",
+      "completions": [
+        "_____________________.\n\n\n**Please note:**  This is a memory test"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.10597864538431168,
+          "2": 0.09618136286735535,
+          "3": 0.24486632645130157,
+          "4": 0.552973747253418
+        }
+      ],
+      "confidence_scores": [
+        0.748278446495533
+      ],
+      "response_categories": [
+        "Lure"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.748278446495533,
+      "mean_accuracy": 0.0
+    },
+    "Item41": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe furry animal that attacks cobra snakes is the mongoose.\n\nNow complete this sentence with ONE word or short phrase:\nThe furry animal that attacks cobra snakes is the  is/are",
+      "completions": [
+        "the ______.\n\n\nThe furry animal that attacks cobra snakes is the  is"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.1001441553235054,
+          "2": 0.07600104063749313,
+          "3": 0.4655468165874481,
+          "4": 0.35830795764923096
+        }
+      ],
+      "confidence_scores": [
+        0.6940061723192533
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.6940061723192533,
+      "mean_accuracy": 1.0
+    },
+    "Item42": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe man who wrote \"The Star Spangled Banner\" was Francis Scott Key.\n\nNow complete this sentence with ONE word or short phrase:\nThe man who wrote \"The Star Spangled Banner\" was  is/are",
+      "completions": [
+        "_______.\n\n**Answer:** Francis Scott Key"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.06281958520412445,
+          "2": 0.03120635636150837,
+          "3": 0.15697012841701508,
+          "4": 0.7490040063858032
+        }
+      ],
+      "confidence_scores": [
+        0.8640529029071331
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8640529029071331,
+      "mean_accuracy": 1.0
+    },
+    "Item43": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nPeople who make maps are called cartographers.\n\nNow complete this sentence with ONE word or short phrase:\nPeople who make maps are called  is/are",
+      "completions": [
+        "__________.\n\n\nPeople who make maps are called  **cartographers**."
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.11122437566518784,
+          "2": 0.048163026571273804,
+          "3": 0.15445156395435333,
+          "4": 0.6861611008644104
+        }
+      ],
+      "confidence_scores": [
+        0.805183174709479
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.805183174709479,
+      "mean_accuracy": 1.0
+    },
+    "Item44": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe U.S. Naval Academy is located in Annapolis.\n\nNow complete this sentence with ONE word or short phrase:\nThe U.S. Naval Academy is located in  is/are",
+      "completions": [
+        "__________. \n\nAnnapolis"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.08914241194725037,
+          "2": 0.028715336695313454,
+          "3": 0.08048692345619202,
+          "4": 0.8016553521156311
+        }
+      ],
+      "confidence_scores": [
+        0.8648850880563259
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8648850880563259,
+      "mean_accuracy": 1.0
+    },
+    "Item45": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe largest island in the world excluding Australia is Greenland.\n\nNow complete this sentence with ONE word or short phrase:\nThe largest island in the world excluding Australia is  is/are",
+      "completions": [
+        "______.\n\n**Answer:** Greenland"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.06434711068868637,
+          "2": 0.039546966552734375,
+          "3": 0.1864948868751526,
+          "4": 0.7096110582351685
+        }
+      ],
+      "confidence_scores": [
+        0.8471233124534289
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8471233124534289,
+      "mean_accuracy": 1.0
+    },
+    "Item46": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe leader of the Argonauts was Jason.\n\nNow complete this sentence with ONE word or short phrase:\nThe leader of the Argonauts was  is/are",
+      "completions": [
+        "_______. \n\n**Jason**"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.08057182282209396,
+          "2": 0.03524288907647133,
+          "3": 0.20672762393951416,
+          "4": 0.6774576902389526
+        }
+      ],
+      "confidence_scores": [
+        0.8270237445831299
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8270237445831299,
+      "mean_accuracy": 1.0
+    },
+    "Item47": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nPeople who explore caves are called spelunkers.\n\nNow complete this sentence with ONE word or short phrase:\nPeople who explore caves are called  is/are",
+      "completions": [
+        "_______.\n\nPeople who explore caves are called  is/are **spel"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.13663055002689362,
+          "2": 0.04217233136296272,
+          "3": 0.19380930066108704,
+          "4": 0.6273878216743469
+        }
+      ],
+      "confidence_scores": [
+        0.7706514671444893
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.7706514671444893,
+      "mean_accuracy": 1.0
+    },
+    "Item48": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe illegal move by a baseball pitcher that results in all runners advancing one base is a balk.\n\nNow complete this sentence with ONE word or short phrase:\nThe illegal move by a baseball pitcher that results in all runners advancing one base is a  is/are",
+      "completions": [
+        "a _____. \n\n\n**Answer:** balk"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.1116044819355011,
+          "2": 0.08645898848772049,
+          "3": 0.4239683747291565,
+          "4": 0.37796807289123535
+        }
+      ],
+      "confidence_scores": [
+        0.689433291554451
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.689433291554451,
+      "mean_accuracy": 1.0
+    },
+    "Item49": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe sport that uses the terms \"stones\" and \"brooms\" is curling.\n\nNow complete this sentence with ONE word or short phrase:\nThe sport that uses the terms \"stones\" and \"brooms\" is  is/are",
+      "completions": [
+        "_____.\n\n\n**Answer:** curling"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.09682489931583405,
+          "2": 0.061788540333509445,
+          "3": 0.22173884510993958,
+          "4": 0.619647741317749
+        }
+      ],
+      "confidence_scores": [
+        0.7880698268612226
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.7880698268612226,
+      "mean_accuracy": 1.0
+    },
+    "Item50": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe capital of Delaware is Dover.\n\nNow complete this sentence with ONE word or short phrase:\nThe capital of Delaware is  is/are",
+      "completions": [
+        "______.\n\n\nThe capital of Delaware is  is/are **Dover**."
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.061256103217601776,
+          "2": 0.025946421548724174,
+          "3": 0.09793216735124588,
+          "4": 0.8148652911186218
+        }
+      ],
+      "confidence_scores": [
+        0.8888022042810917
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8888022042810917,
+      "mean_accuracy": 1.0
+    },
+    "Item51": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nHeathrow Airport is located in London.\n\nNow complete this sentence with ONE word or short phrase:\nHeathrow Airport is located in  is/are",
+      "completions": [
+        "____________________.\n\n\n**Answer:** London"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.09105773270130157,
+          "2": 0.06562495976686478,
+          "3": 0.24198652803897858,
+          "4": 0.6013307571411133
+        }
+      ],
+      "confidence_scores": [
+        0.7845300883054733
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.7845300883054733,
+      "mean_accuracy": 1.0
+    },
+    "Item52": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe ship that Charles Darwin made his scientific voyage was the Beagle.\n\nNow complete this sentence with ONE word or short phrase:\nThe ship that Charles Darwin made his scientific voyage was the  is/are",
+      "completions": [
+        "_____.\n\nThe ship that Charles Darwin made his scientific voyage was the Beagle"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.1037854254245758,
+          "2": 0.06610909104347229,
+          "3": 0.1833953857421875,
+          "4": 0.6467101573944092
+        }
+      ],
+      "confidence_scores": [
+        0.7910101314385732
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.7910101314385732,
+      "mean_accuracy": 1.0
+    },
+    "Item53": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe man who wrote \"Canterbury Tales\" was Geoffrey Chaucer.\n\nNow complete this sentence with ONE word or short phrase:\nThe man who wrote \"Canterbury Tales\" was  is/are",
+      "completions": [
+        "_____. \n\nGeoffrey Chaucer."
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.09921412914991379,
+          "2": 0.041778814047575,
+          "3": 0.16319593787193298,
+          "4": 0.6958110928535461
+        }
+      ],
+      "confidence_scores": [
+        0.8185346474250158
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8185346474250158,
+      "mean_accuracy": 1.0
+    },
+    "Item54": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe man who was president directly after James Madison was James Monroe.\n\nNow complete this sentence with ONE word or short phrase:\nThe man who was president directly after James Madison was  is/are",
+      "completions": [
+        "__________.\n\n\nThe man who was president directly after James Madison was is/"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.095759816467762,
+          "2": 0.04616285488009453,
+          "3": 0.11444216966629028,
+          "4": 0.7436351776123047
+        }
+      ],
+      "confidence_scores": [
+        0.8353175818920135
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8353175818920135,
+      "mean_accuracy": 1.0
+    },
+    "Item55": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe capital of Denmark is Copenhagen.\n\nNow complete this sentence with ONE word or short phrase:\nThe capital of Denmark is  is/are",
+      "completions": [
+        "__________.\n\nThe capital of Denmark is **Copenhagen**."
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.05363568291068077,
+          "2": 0.019571157172322273,
+          "3": 0.056873489171266556,
+          "4": 0.8699195981025696
+        }
+      ],
+      "confidence_scores": [
+        0.9143589523931345
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.9143589523931345,
+      "mean_accuracy": 1.0
+    },
+    "Item56": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nMichelangelo's statue of David is located in Florence.\n\nNow complete this sentence with ONE word or short phrase:\nMichelangelo's statue of David is located in  is/are",
+      "completions": [
+        "_____.\n\n**Answer:** Florence"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.09184162318706512,
+          "2": 0.04461462050676346,
+          "3": 0.1767708957195282,
+          "4": 0.686772882938385
+        }
+      ],
+      "confidence_scores": [
+        0.8194916943709055
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.8194916943709055,
+      "mean_accuracy": 1.0
+    },
+    "Item57": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nOn the \"Andy Griffith Show,\" Andy Griffith was the sherriff of Mayberry.\n\nNow complete this sentence with ONE word or short phrase:\nOn the \"Andy Griffith Show,\" Andy Griffith was the sherriff of  is/are",
+      "completions": [
+        "."
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.0741584300994873,
+          "2": 0.04735342785716057,
+          "3": 0.2291969209909439,
+          "4": 0.6492912769317627
+        }
+      ],
+      "confidence_scores": [
+        0.817873718837897
+      ],
+      "response_categories": [
+        "Other"
+      ],
+      "accuracy_scores": [
+        0
+      ],
+      "mean_confidence": 0.817873718837897,
+      "mean_accuracy": 0.0
+    },
+    "Item58": {
+      "prompt": "You are a 19-year-old male participant in a memory experiment. Your demographic profile: education level 2, ethnicity categories 1. Answer as this person would.\n\nNow answer the following in the same format.\n\nThe following fact was recently shared with you:\nThe unit that measures the six-foot depth of water is a fathom.\n\nNow complete this sentence with ONE word or short phrase:\nThe unit that measures the six-foot depth of water is a  is/are",
+      "completions": [
+        "_____.\n\n\nThe unit that measures the fathom is a  is/are"
+      ],
+      "confidence_probs": [
+        {
+          "1": 0.10791664570569992,
+          "2": 0.07727032154798508,
+          "3": 0.16509364545345306,
+          "4": 0.6497192978858948
+        }
+      ],
+      "confidence_scores": [
+        0.7855384722352028
+      ],
+      "response_categories": [
+        "Correct"
+      ],
+      "accuracy_scores": [
+        1
+      ],
+      "mean_confidence": 0.7855384722352028,
+      "mean_accuracy": 1.0
+    }
+  }
+}

@@ -1,0 +1,19 @@
+04:32:12 | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E1/E1_20260416_043212.log
+04:32:12 | Loading model...
+Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+WARNING:root:You tried to specify center_unembed=True for a model using logit softcap, but this can't be done! Softcapping is not invariant upon adding a constant Setting center_unembed=False instead.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:07,  2.47s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.27s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:05<00:01,  1.75s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.33s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.60s/it]
+WARNING:root:You are not using LayerNorm, so the writing weights can't be centered! Skipping
+Loaded pretrained model gemma-2-9b-it into HookedTransformer
+Moving model to device:  cuda
+04:33:23 | Human prob map: {1: 0.07009952401557767, 2: 0.4309252217997465, 3: 0.7418725617685306, 4: 0.8747396608152336}
+INFO:E1:Human prob map: {1: 0.07009952401557767, 2: 0.4309252217997465, 3: 0.7418725617685306, 4: 0.8747396608152336}
+04:33:23 | Loaded 166 personas
+INFO:E1:Loaded 166 personas
+04:33:23 | [ETA] E1 total: 103,086 completions x 2.65s (pilot) = ~76.0 hrs wall-clock
+INFO:E1:[ETA] E1 total: 103,086 completions x 2.65s (pilot) = ~76.0 hrs wall-clock
+E1 conditions:   0%|          | 0/9 [00:00<?, ?it/s]04:33:23 | Condition EG0_shot0_rs0: cached personas=0
+INFO:E1:Condition EG0_shot0_rs0: cached personas=0
+
+Personas:   0%|          | 0/166 [00:00<?, ?it/s][A

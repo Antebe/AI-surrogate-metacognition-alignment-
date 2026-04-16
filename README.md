@@ -119,6 +119,25 @@ sae_steering_toolkit/
 └── logs/                       #   Per-experiment log files
 ```
 
+## API tokens
+
+This pipeline needs two tokens:
+
+| Var | Where to get it |
+|---|---|
+| `HF_TOKEN` | https://huggingface.co/settings/tokens (accept Gemma-2-9B license first) |
+| `ANTHROPIC_API_KEY` | https://console.anthropic.com/settings/keys |
+
+Set them persistently:
+
+```bash
+echo 'export HF_TOKEN="hf_..."'              >> ~/.bashrc
+echo 'export ANTHROPIC_API_KEY="sk-ant-..."' >> ~/.bashrc
+source ~/.bashrc
+```
+
+Or copy `.env.example` → `.env` and fill in (loaded automatically by `config.py`).
+
 ## Quick Start
 
 ```bash

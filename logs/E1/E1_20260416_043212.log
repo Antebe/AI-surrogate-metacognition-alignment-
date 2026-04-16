@@ -1,0 +1,6 @@
+2026-04-16 04:32:12,789 | INFO | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E1/E1_20260416_043212.log
+2026-04-16 04:32:12,791 | INFO | Loading model...
+2026-04-16 04:33:23,459 | INFO | Human prob map: {1: 0.07009952401557767, 2: 0.4309252217997465, 3: 0.7418725617685306, 4: 0.8747396608152336}
+2026-04-16 04:33:23,461 | INFO | Loaded 166 personas
+2026-04-16 04:33:23,474 | INFO | [ETA] E1 total: 103,086 completions x 2.65s (pilot) = ~76.0 hrs wall-clock
+2026-04-16 04:33:23,475 | INFO | Condition EG0_shot0_rs0: cached personas=0

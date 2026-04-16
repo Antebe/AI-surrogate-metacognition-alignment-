@@ -1,27 +1,35 @@
 #!/usr/bin/env bash
-# Run all experiments sequentially in tmux.
-# Usage: bash run_all.sh
-#   or:  tmux new -s experiments 'bash run_all.sh'
-set -e
-
+# Option B pipeline - tmux-friendly, resumable, pilot-gated.
+# Usage:
+#   tmux new -s mcog 'cd experiments && bash run_all.sh; exec bash'
+set -euo pipefail
 cd "$(dirname "$0")"
 
-echo "============================================"
-echo " SAE Steering Experiments"
-echo " Started: $(date)"
-echo "============================================"
+source /home/cs29824/.venv/bin/activate
+: "${HF_TOKEN:?HF_TOKEN not set - see README 'API tokens' section}"
+: "${ANTHROPIC_API_KEY:=${ANTHROPIC_KEY:-}}"
+export ANTHROPIC_API_KEY
+[ -n "$ANTHROPIC_API_KEY" ] || { echo "ANTHROPIC_API_KEY not set"; exit 1; }
 
-for exp in E1 E2 E3 E5 E6 E7; do
-    echo ""
-    echo "────────────────────────────────────────────"
-    echo " Running ${exp}  ($(date +%H:%M:%S))"
-    echo "────────────────────────────────────────────"
-    python run_${exp}.py
-    echo "  ${exp} complete  ($(date +%H:%M:%S))"
-done
+LOG_ROOT="../logs/run_all_$(date +%Y%m%d_%H%M%S)"
+mkdir -p "$LOG_ROOT"
+echo "Logs: $LOG_ROOT"
 
-echo ""
-echo "============================================"
-echo " All experiments complete"
-echo " Finished: $(date)"
-echo "============================================"
+run () {
+    local name=$1
+    echo "---- $name  $(date +%H:%M:%S) ----"
+    python "run_${name}.py" 2>&1 | tee "$LOG_ROOT/${name}.log"
+    echo "---- $name done $(date +%H:%M:%S) ----"
+}
+
+run E0_pilot
+run E1
+run E2
+run E8
+run E5
+run E3
+run E6
+run E7
+run E9
+
+echo "ALL DONE $(date)"

@@ -1,0 +1,4 @@
+2026-04-16 04:30:15,401 | INFO | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E0/E0_20260416_043015.log
+2026-04-16 04:30:15,401 | INFO | Loading model...
+2026-04-16 04:31:58,582 | INFO |   persona=402aha items=3
+2026-04-16 04:31:58,585 | INFO | Pilot: 3 completions in 8.0s = 2.65s/completion

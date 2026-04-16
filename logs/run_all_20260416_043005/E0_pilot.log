@@ -1,0 +1,15 @@
+04:30:15 | Logging to /home/cs29824/andre/sae_steering_toolkit/logs/E0/E0_20260416_043015.log
+04:30:15 | Loading model...
+Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
+WARNING:root:You tried to specify center_unembed=True for a model using logit softcap, but this can't be done! Softcapping is not invariant upon adding a constant Setting center_unembed=False instead.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files:  25%|██▌       | 1/4 [00:20<01:00, 20.11s/it]Fetching 4 files:  50%|█████     | 2/4 [00:21<00:18,  9.05s/it]Fetching 4 files: 100%|██████████| 4/4 [00:21<00:00,  3.49s/it]Fetching 4 files: 100%|██████████| 4/4 [00:21<00:00,  5.44s/it]
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.26s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:05,  2.50s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:09<00:03,  3.22s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  3.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.98s/it]
+WARNING:root:You are not using LayerNorm, so the writing weights can't be centered! Skipping
+Loaded pretrained model gemma-2-9b-it into HookedTransformer
+Moving model to device:  cuda
+Personas:   0%|          | 0/1 [00:00<?, ?it/s]04:31:58 |   persona=402aha items=3
+INFO:E0:  persona=402aha items=3
+Personas: 100%|██████████| 1/1 [00:07<00:00,  7.96s/it]Personas: 100%|██████████| 1/1 [00:07<00:00,  7.96s/it]
+04:31:58 | Pilot: 3 completions in 8.0s = 2.65s/completion
+INFO:E0:Pilot: 3 completions in 8.0s = 2.65s/completion
